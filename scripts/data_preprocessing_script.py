@@ -3,8 +3,6 @@ import numpy as np
 import json
 import os
 
-
-
 def normalize_code(code):
     """ will convert to format 'string.0' """
     #try to convert to a float directly
@@ -14,7 +12,7 @@ def normalize_code(code):
     except ValueError:
         return str(code)
 
-def process_mixed_variables(df, value_labels_dict, replace_col=False, code_col=False, code_label_col=False):
+def process_mixed_variables(df, value_labels_dict, replace_col=False, code_col=False, code_label_col=False,errors="coerece"):
     """
     Cleans coded categorical/numeric variables using a value label dict.
     Returns a cleaned dataframe and a summary.
@@ -41,7 +39,7 @@ def process_mixed_variables(df, value_labels_dict, replace_col=False, code_col=F
 
         # Convert entries for numeric masking
         temp_series = temp_series.apply(lambda x: str(float(x)) if pd.notna(x) and str(x).replace('.', '', 1).isdigit() else str(x))
-        clean_series = pd.to_numeric(temp_series.mask(temp_series.isin(code_keys)), errors='coerce')
+        clean_series = pd.to_numeric(temp_series.mask(temp_series.isin(code_keys)), errors=errors)
 
         mapped_dict = {str(float(k)) if k.isdigit() else k: v for k, v in codes_dict.items()}
         label_series = temp_series.map(mapped_dict)
@@ -64,24 +62,29 @@ def process_mixed_variables(df, value_labels_dict, replace_col=False, code_col=F
     df = pd.concat([df, pd.DataFrame(new_columns)], axis=1)
     return df
 
-
 #open csv
-csv_filepath = r'..\Database\TBIMSPublic.2024-11-01\Data\Form1.csv'
-df = pd.read_csv(csv_filepath)
+base_dir = os.path.dirname(__file__)  # directory of this script
+
+csv_path = os.path.join(base_dir, '..', 'Database', 'TBIMSPublic.2024-11-01', 'Data', 'Form1.csv')
+
+df = pd.read_csv(csv_path)
 
 #open data dictionary
-json_filepath = r'..\Database\processed\code_dict.json'
+json_filepath = os.path.join(base_dir, '..', 'Database', 'processed', 'code_dict.json')
+
 with open(json_filepath, 'r') as file:
     code_dict = json.load(file)
 
-
 #remove codes from quantitative data, keep data in place
-cont_cols = [key for key, value in code_dict.items() if value['data_type'] == 'quantitative']
+cont_cols = code_dict['numeric_cols']
+
 df_cont = df[cont_cols]
-df_cont_clean = process_mixed_variables(df_cont, code_dict, replace_col=True, code_col=True)
+
+df_cont_clean = process_mixed_variables(df_cont, code_dict, replace_col=True, code_col=True, errors='coerce')
 
 #remove codes from qualitative data, keep data in place
-cat_cols = [key for key, value in code_dict.items() if value['data_type'] == 'qualitative']
+cat_cols = code_dict['categorical_cols']
+
 df_cat = df[cat_cols]
 
 #Theres a lot of codes that tell us data is missing. They dont add much value, but I will keep record in the _code column.
@@ -95,7 +98,10 @@ missing_data_codes_dict = {
             '66' : 'Variable Did Not Exist',
             '77' : 'Refused',
             '88' : 'Not Applicable',
-
+            '8888' : 'Not Applicable',
+            '9999' : 'Unknown',
+            '6666' : 'Variable Did Not Exist',
+            '7777' : 'Refused'
 }
 
 cat_col_missing_data_dict = {}
@@ -103,7 +109,7 @@ cat_col_missing_data_dict = {}
 for col in cat_cols:
     cat_col_missing_data_dict[col] = missing_data_codes_dict
 
-df_cat_clean = process_mixed_variables(df_cat, cat_col_missing_data_dict, replace_col=True, code_col=True)
+df_cat_clean = process_mixed_variables(df_cat, cat_col_missing_data_dict, replace_col=True, code_col=True, errors='ignore')
 
 #combine
 df_clean = pd.concat([df_cont_clean, df_cat_clean], axis=1)
@@ -119,10 +125,11 @@ labels = range(10)
 
 df_clean['AgeGroup'] = pd.cut(df_clean['AGENoPHI'].fillna(-1), bins=bins, labels=labels, right=True)
 
-df_clean.loc[df_clean['AGENoPHI_code'] == 777.0, 'AgeGroup'] = '89+'
+df_clean.loc[df_clean['AGENoPHI'] == 777.0, 'AgeGroup'] = 9
 
 #BackCountTime is basically just over or under 30 seconds with the vast majority over 30 seconds
 #create new binary column for BackCountTime_over_30, 1=True, 0=False
+df_clean['BackCountTime'].astype(float)
 df_clean['BackCountTime_over_30'] = np.where(
     df_clean['BackCountTime'] >= 30, 1,
     np.where(df_clean['BackCountTime'].isna(), np.nan, 0))
@@ -134,6 +141,11 @@ df_clean.loc[df_clean['BackCountTime'] >= 30.0, 'BackCountTime_over_30'] = 1
 #DeathECode is categorical and has a few random codes.
 #all these can be converted to str unless needed for ml purposes
 str_cols = ['DeathCause1', 'DeathCause2', 'DeathECode', 'ZipInj']
+df_str_cols = df_clean[str_cols]
+df_str_cols_clean = process_mixed_variables(df_str_cols, code_dict, replace_col=True, code_col=True, errors='ignore')
+df_clean = df_clean.drop(columns=df_str_cols, errors='ignore')
+df_clean = pd.concat([df_clean, df_str_cols_clean], axis=1)
+
 for col in str_cols:
     df_clean[col] = df_clean[col].astype(str).str.zfill(5)
 
@@ -143,21 +155,12 @@ df_clean['FluencyInt'] = df_clean['AGENoPHI'].mask((df_clean['FluencyInt'] <= 0.
 #PTAMethod has an additional code 9, since there are so few I will drop these as an error
 df_clean['PTAMethod'] = df_clean['PTAMethod'].mask(df_clean['PTAMethod'] == 9.0, np.nan)
 
-data_dir = r'..\Database\processed'
-filename = os.path.join(data_dir, 'form_1_cleaned.csv')
 
-if not os.path.exists(data_dir):
-    os.makedirs(data_dir)
+output_path = os.path.join(base_dir, '..', 'Database', 'processed')
+
+filename = os.path.join(output_path, 'form_1_cleaned.csv')
+
+if not os.path.exists(output_path):
+    os.makedirs(output_path)
 
 df_clean.to_csv(filename)
-
-
-
-
-
-
-
-
-
-
-
