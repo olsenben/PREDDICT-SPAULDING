@@ -3,6 +3,19 @@ import numpy as np
 import json
 import os
 
+"""
+Run this script to processed Form1.csv. Make sure your data is in the correct directory!
+
+...PREDDICT-Spaulding\Database\TBIMSPublic.2024-11-01\Data
+
+KNOWN ISSUES: B3TCOMP,	B3TEF,	B3TEM,	BackCountDigits_i_n,	BackDigitCorrect_i_n, DelayWordRecallCorrect_i_n,	FluencyCorrect_i_n,
+DelayWordRecallCorrect_i_n,	FluencyCorrect_i_n, ReasonCorrect_i_n,	WordRecallCorrect_i_n  have some weird outputs that need to be validated.
+
+Some np.nan values are casting to strings in weird ways that will need to be addressed. super weird 
+
+ """
+
+
 def normalize_code(code):
     """ will convert to format 'string.0' """
     #try to convert to a float directly
