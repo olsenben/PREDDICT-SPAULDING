@@ -1,0 +1,4210 @@
+{
+    "AGENoPHI": {
+        "777": "89 Years Old or Older",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "ALC4Drinks": {
+        "666": "Variable Did Not Exist",
+        "777": "Refused",
+        "888": "Not Applicable",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "ALC5Drinks": {
+        "666": "Variable Did Not Exist",
+        "777": "Refused",
+        "888": "Not Applicable",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "ALCAnyDrink": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "ALCDrinks": {
+        "666": "Variable Did Not Exist",
+        "777": "Refused",
+        "888": "Not Applicable",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "ALCMonth": {
+        "666": "Variable Did Not Exist",
+        "777": "Refused",
+        "888": "Not Applicable",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "ALCWeek": {
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not Applicable",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "AcutePay1": {
+        "1": "Medicare",
+        "2": "Medicaid",
+        "3": "Workers Compensation",
+        "4": "Private Insurance",
+        "7": "Self or Private Pay",
+        "8": "State or County",
+        "10": "Auto Insurance",
+        "14": "Charity",
+        "15": "Other",
+        "55": "Payor Source Pending",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "AcutePay2": {
+        "1": "Medicare",
+        "2": "Medicaid",
+        "3": "Workers Compensation",
+        "4": "Private Insurance",
+        "7": "Self or Private Pay",
+        "8": "State or County",
+        "10": "Auto Insurance",
+        "14": "Charity",
+        "15": "Other",
+        "55": "Payor Source Pending",
+        "888": "Not Applicable: No secondary payor",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "BMICat": {
+        "1": "Very severely underweight",
+        "2": "Severely underweight",
+        "3": "Underweight",
+        "4": "Normal",
+        "5": "Overweight",
+        "6": "Obese Class I",
+        "7": "Obese Class II",
+        "8": "Obese Class III",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "BTACTAdm": {
+        "1": "Phone",
+        "2": "In-person",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Battery not given",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "BTACTLanguage": {
+        "1": "English",
+        "2": "Spanish",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "BTACTTCC": {
+        "1": "Test Administered in full- results valid",
+        "2": "Test Attempted BUT Not Completed (Due to Cognitive/Neurological Reasons)",
+        "3": "Test Attempted BUT Not Completed (Due to non-neurological Physical reasons)",
+        "4": "Test Attempted BUT Not Completed (Refusal to continue)",
+        "5": "Test Attempted BUT Not Completed (Non-English Speaking Patient)",
+        "6": "Test Attempted BUT Not Completed (Logistical Reasons, Other Reasons -- site-specific)",
+        "7": "Test Not Attempted (Due to the severity of Cognitive/Neurological deficits)",
+        "8": "Test Not Attempted (Due to non-neurologic/ Physical reasons)",
+        "9": "Test Not Attempted (Refusal)",
+        "10": "Test Not Attempted (Non-English Speaking Patient)",
+        "11": "Test Not Attempted (Logistical Reasons, Other Reasons \u2013 site-specific)",
+        "12": "Test Not Attempted (Not Consented Within Window)",
+        "13": "Test Not Attempted (Form 1: Not Admitted In Window/Form 2: Collected Out of Window)",
+        "14": "Suspect That a Participant is Writing Down Answers",
+        "16": "Other",
+        "666": "Variable Did Not Exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "BackCountDigits": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "BackCountErrors": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "BackCountLastNum": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "BackCountTCC": {
+        "1": "Test Administered in full- results valid",
+        "2": "Test Attempted BUT Not Completed (Due to Cognitive/Neurological Reasons)",
+        "3": "Test Attempted BUT Not Completed (Due to non-neurological Physical reasons)",
+        "4": "Test Attempted BUT Not Completed (Refusal to continue)",
+        "5": "Test Attempted BUT Not Completed (Non-English Speaking Patient)",
+        "6": "Test Attempted BUT Not Completed (Logistical Reasons, Other Reasons -- site-specific)",
+        "7": "Test Not Attempted (Due to the severity of Cognitive/Neurological deficits)",
+        "8": "Test Not Attempted (Due to non-neurologic/ Physical reasons)",
+        "9": "Test Not Attempted (Refusal)",
+        "10": "Test Not Attempted (Non-English Speaking Patient)",
+        "11": "Test Not Attempted (Logistical Reasons, Other Reasons \u2013 site-specific)",
+        "12": "Test Not Attempted (Not Consented Within Window)",
+        "13": "Test Not Attempted (Not Admitted to Rehab Within Window At Form I)",
+        "14": "Suspect That a Participant is Writing Down Answers",
+        "16": "Other",
+        "666": "Variable Did Not Exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "BackCountTime": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "BackDigitCorrect": {
+        "66": "Variable Did Not Exist",
+        "88": "Not Tested",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "BackDigitTCC": {
+        "1": "Test Administered in full- results valid",
+        "2": "Test Attempted BUT Not Completed (Due to Cognitive/Neurological Reasons)",
+        "3": "Test Attempted BUT Not Completed (Due to non-neurological Physical reasons)",
+        "4": "Test Attempted BUT Not Completed (Refusal to continue)",
+        "5": "Test Attempted BUT Not Completed (Non-English Speaking Patient)",
+        "6": "Test Attempted BUT Not Completed (Logistical Reasons, Other Reasons -- site-specific)",
+        "7": "Test Not Attempted (Due to the severity of Cognitive/Neurological deficits)",
+        "8": "Test Not Attempted (Due to non-neurologic/ Physical reasons)",
+        "9": "Test Not Attempted (Refusal)",
+        "10": "Test Not Attempted (Non-English Speaking Patient)",
+        "11": "Test Not Attempted (Logistical Reasons, Other Reasons \u2013 site-specific)",
+        "12": "Test Not Attempted (Not Consented Within Window)",
+        "13": "Test Not Attempted (Not Admitted to Rehab Within Window At Form I)",
+        "14": "Suspect That a Participant is Writing Down Answers",
+        "16": "Other",
+        "666": "Variable Did Not Exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CC_Hypertension": {
+        "1": "Monitored, no ICP >=20 mm/HG",
+        "2": "ICP Fluctuations Are Evident Where Peaks Of >=20 mm/Hg Occur Within One 24 Hour Span",
+        "3": "ICP Fluctuations Are Evident Where Peaks Of >=20mm/Hg Occur Over More Than A 24 Hour Span",
+        "4": "ICP Evident Where ICP >=20mm/Hg Is Sustained For Greater Than A 24 Hour Period",
+        "88": "Not Monitored",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT5a1CorticalLFront": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT5a2CorticalRFront": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT5a3CorticalNFront": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT5b1CorticalLTemp": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT5b2CorticalRTemp": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT5b3CorticalNTemp": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT5c1CorticalLPar": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT5c2CorticalRPar": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT5c3CorticalNPar": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT5d1CorticalLOcc": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT5d2CorticalROcc": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT5d3CorticalNOcc": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT5e1CorticalLUnk": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT5e2CorticalRUnk": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT5e3CorticalNUnk": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT6aNonCortL": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT6aNonCortN": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT6aNonCortR": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT7a1AxialLEpi": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT7a2AxialREpi": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT7a3AxialNEpi": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT7b1AxialLSub": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT7b2AxialRSub": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT7b3AxialNSub": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT7c1AxialLNS": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT7c2AxialRNS": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT7c3AxialNNS": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT7d1FalcineSub": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT7d2FalcineSAH": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CT7d3FalcineUnk": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CTComp": {
+        "1": "No Visible Intracranial Compression",
+        "2": "Cisterns Are Present But Midline Shift is Noted of 1-5 mm.",
+        "3": "Cisterns Compressed or Absent With Midline Shift of 0-5 mm. Compression",
+        "4": "Midline Shift of Greater Than 5 mm.",
+        "5": "Extent Not Specified",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CTFrag": {
+        "0": "No Fragment(s)",
+        "1": "Yes Fragment(s)",
+        "66": "Variable Did Not Exist",
+        "88": "No CT done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CTIntracrain": {
+        "0": "No Visible Pathology",
+        "1": "Yes, Pathology Exists",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CTIntraventricular": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CTPunctate": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CTStatus": {
+        "0": "CT Not Done",
+        "1": "CT Done",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CTSubarachnioid": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "CT Not Done",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CVD19Pos": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not Applicable",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CVD19Vacc": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not Applicable",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CVD19Vent": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not Applicable",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Cause": {
+        "1": "Motor Vehicle",
+        "2": "Motorcycle",
+        "3": "Bicycle",
+        "4": "All-Terrain Vehicle (ATV) and All-Terrain Cycle (ATC)",
+        "5": "Other Vehicular: Unclassified",
+        "10": "Gunshot Wound",
+        "11": "Assaults With Blunt Instrument",
+        "12": "Other Violence",
+        "13": "Water Sports",
+        "14": "Field/Track Sports",
+        "15": "Gymnastic Activities",
+        "16": "Winter Sports",
+        "17": "Air Sports",
+        "18": "Other Sports",
+        "19": "Fall",
+        "20": "Hit By Falling/Flying Object",
+        "21": "Pedestrian",
+        "22": "Other Unclassified",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "ChwTob": {
+        "1": "Not At All",
+        "2": "Some Days",
+        "3": "Everyday",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CongestiveHeartFailure": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CongestiveHeartFailureTBIOnset": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "CountryBirthF": {
+        "1": "United States",
+        "2": "Other Than United States",
+        "77": "Refused",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Craniotomy": {
+        "1": "Neither Craniotomy Nor Craniectomy",
+        "2": "Craniotomy",
+        "3": "Craniectomy",
+        "4": "Both: Separate Procedures",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DAYSToREHABadm": {
+        "8888": "Not Applicable",
+        "9999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "DAYStoACUTEadm": {
+        "8888": "Not applicable",
+        "9999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "DAYStoACUTEdc": {
+        "8888": "Not applicable",
+        "9999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "DAYStoREHABdc": {
+        "8888": "Not Applicable",
+        "9999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "DRINKCat": {
+        "0": "Abstaining",
+        "1": "Light",
+        "2": "Moderate",
+        "3": "Heavy",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DRSEmpA": {
+        "0.0": "Not Restricted",
+        "0.5": "Between Not Restricted and Selective Jobs, Competitive",
+        "1.0": "Selected Jobs, Competitive",
+        "1.5": "Between Selected Jobs and Sheltered Workshop",
+        "2.0": "Sheltered Workshop, Non-Competitive",
+        "2.5": "Between Sheltered Workshop and Not Employable",
+        "3.0": "Not Employable",
+        "99.9": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DRSEmpD": {
+        "0.0": "Not Restricted",
+        "0.5": "Between Not Restricted and Selective Jobs, Competitive",
+        "1.0": "Selected Jobs, Competitive",
+        "1.5": "Between Selected Jobs and Sheltered Workshop",
+        "2.0": "Sheltered Workshop, Non-Competitive",
+        "2.5": "Between Sheltered Workshop and Not Employable",
+        "3.0": "Not Employable",
+        "99.9": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DRSEyeA": {
+        "0": "Spontaneous",
+        "1": "To Speech",
+        "2": "To Pain",
+        "3": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DRSEyeD": {
+        "0": "Spontaneous",
+        "1": "To Speech",
+        "2": "To Pain",
+        "3": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DRSFeedA": {
+        "0.0": "Complete",
+        "0.5": "Between Complete and Partial",
+        "1.0": "Partial",
+        "1.5": "Between Partial and Minimal",
+        "2.0": "Minimal",
+        "2.5": "Between Minimal and None",
+        "3.0": NaN,
+        "99.9": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DRSFeedD": {
+        "0.0": "Complete",
+        "0.5": "Between Complete and Partial",
+        "1.0": "Partial",
+        "1.5": "Between Partial and Minimal",
+        "2.0": "Minimal",
+        "2.5": "Between Minimal and None",
+        "3.0": NaN,
+        "99.9": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DRSFuncA": {
+        "0.0": "Completely Independent",
+        "0.5": "Between Completely Independent and Independent in Special Environment",
+        "1.0": "Independent in Special Environment",
+        "1.5": "Between Independent in Special Environment and Mildly Dependent",
+        "2.0": "Mildly Dependent: Limited assistance",
+        "2.5": "Between Mildly Dependent and Moderately Dependent",
+        "3.0": "Moderately Dependent: Moderate assistance",
+        "3.5": "Between Moderately Dependent and Markedly Dependent",
+        "4.0": "Markedly Dependent: Assist all major activities, all times",
+        "4.5": "Between Markedly Dependent and Totally Dependent",
+        "5.0": "Totally Dependent: 24 hour nursing care",
+        "99.9": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DRSFuncD": {
+        "0.0": "Completely Independent",
+        "0.5": "Between Completely Independent and Independent in Special Environment",
+        "1.0": "Independent in Special Environment",
+        "1.5": "Between Independent in Special Environment and Mildly Dependent",
+        "2.0": "Mildly Dependent: Limited assistance",
+        "2.5": "Between Mildly Dependent and Moderately Dependent",
+        "3.0": "Moderately Dependent: Moderate assistance",
+        "3.5": "Between Moderately Dependent and Markedly Dependent",
+        "4.0": "Markedly Dependent: Assist all major activities, all times",
+        "4.5": "Between Markedly Dependent and Totally Dependent",
+        "5.0": "Totally Dependent: 24 hour nursing care",
+        "99.9": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DRSGroomA": {
+        "0.0": "Complete",
+        "0.5": "Between Complete and Partial",
+        "1.0": "Partial",
+        "1.5": "Between Partial and Minimal",
+        "2.0": "Minimal",
+        "2.5": "Between Minimal and None",
+        "3.0": NaN,
+        "99.9": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DRSGroomD": {
+        "0.0": "Complete",
+        "0.5": "Between Complete and Partial",
+        "1.0": "Partial",
+        "1.5": "Between Partial and Minimal",
+        "2.0": "Minimal",
+        "2.5": "Between Minimal and None",
+        "3.0": NaN,
+        "99.9": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DRSMotA": {
+        "0": "Obeying",
+        "1": "Localizing",
+        "2": "Withdrawing",
+        "3": "Flexing",
+        "4": "Extending",
+        "5": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DRSMotD": {
+        "0": "Obeying",
+        "1": "Localizing",
+        "2": "Withdrawing",
+        "3": "Flexing",
+        "4": "Extending",
+        "5": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DRSToiletA": {
+        "0.0": "Complete",
+        "0.5": "Between Complete and Partial",
+        "1.0": "Partial",
+        "1.5": "Between Partial and Minimal",
+        "2.0": "Minimal",
+        "2.5": "Between Minimal and None",
+        "3.0": NaN,
+        "99.9": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DRSToiletD": {
+        "0.0": "Complete",
+        "0.5": "Between Complete and Partial",
+        "1.0": "Partial",
+        "1.5": "Between Partial and Minimal",
+        "2.0": "Minimal",
+        "2.5": "Between Minimal and None",
+        "3.0": NaN,
+        "99.9": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DRSVerA": {
+        "0": "Oriented",
+        "1": "Confused",
+        "2": "Inappropriate",
+        "3": "Incomprehensible",
+        "4": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DRSVerD": {
+        "0": "Oriented",
+        "1": "Confused",
+        "2": "Inappropriate",
+        "3": "Incomprehensible",
+        "4": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DRSa": {
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "DRSaHigh": {
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "DRSaLow": {
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "DRSd": {
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "DRSdHigh": {
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "DRSdLow": {
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "DataFrom": {
+        "0": "Participant",
+        "1": "Spouse",
+        "2": "Parent(s)",
+        "3": "Sibling",
+        "4": "Adult Child",
+        "5": "Boyfriend, girlfriend, fiance",
+        "7": "Other relative",
+        "8": "Friend",
+        "9": "Professional Caregiver",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DataMethod": {
+        "1": "Interview",
+        "2": "Questionnaire",
+        "3": "Spanish Questionnaire",
+        "4": "Professional Translator: Spanish",
+        "5": "Professional Translator: Other language",
+        "6": "Other translator: Spanish",
+        "7": "Other translator: Other language",
+        "10": "Other",
+        "888": NaN,
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DeathCause1": {
+        "44444": "Person Expired But Cause Unknown",
+        "88888": "Not Applicable",
+        "99999": "Unknown if Person Expired",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DeathCause2": {
+        "44444": "Person Expired But Cause Unknown",
+        "88888": "Not Applicable",
+        "99999": "Unknown if Person Expired",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DeathECode": {
+        "44444": "Person Expired But Cause Unknown",
+        "88888": "Not Applicable",
+        "99999": "Unknown if Person Expired",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DelayWordRecallCorrect": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "DelayWordRecallInt": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "DelayWordRecallMiddle": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "DelayWordRecallPrimacy": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "DelayWordRecallRecency": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "DelayWordRecallRep": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "DelayWordRecallTCC": {
+        "1": "Test Administered in full- results valid",
+        "2": "Test Attempted BUT Not Completed (Due to Cognitive/Neurological Reasons)",
+        "3": "Test Attempted BUT Not Completed (Due to non-neurological Physical reasons)",
+        "4": "Test Attempted BUT Not Completed (Refusal to continue)",
+        "5": "Test Attempted BUT Not Completed (Non-English Speaking Patient)",
+        "6": "Test Attempted BUT Not Completed (Logistical Reasons, Other Reasons -- site-specific)",
+        "7": "Test Not Attempted (Due to the severity of Cognitive/Neurological deficits)",
+        "8": "Test Not Attempted (Due to non-neurologic/ Physical reasons)",
+        "9": "Test Not Attempted (Refusal)",
+        "10": "Test Not Attempted (Non-English Speaking Patient)",
+        "11": "Test Not Attempted (Logistical Reasons, Other Reasons \u2013 site-specific)",
+        "12": "Test Not Attempted (Not Consented Within Window)",
+        "13": "Test Not Attempted (Not Admitted to Rehab Within Window At Form I)",
+        "14": "Suspect That a Participant is Writing Down Answers",
+        "16": "Other",
+        "666": "Variable Did Not Exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Dementia": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DementiaTBIOnset": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DiabetesHighBloodSugar": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "DiabetesHighBloodSugarTBIOnset": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Drugs": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not applicable",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "EDUCATION": {
+        "1": "8th Grade or Less",
+        "2": "9th - 11th Grade",
+        "2.5": "GED",
+        "3": "HS/GED",
+        "3.5": "HS",
+        "4": "Trade",
+        "5": "Some College",
+        "6": "Associate",
+        "7": "Bachelors",
+        "8": "Masters",
+        "9": "Doctorate",
+        "77": "Other",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "EMPLOYMENT": {
+        "2": "Full Time Student",
+        "3": "Part Time Student",
+        "4": "Special Education/Other Non-Regular Education",
+        "5": "Competitively Employed",
+        "7": "Taking Care of House or Family",
+        "8": "Special Employed",
+        "9": "Retired",
+        "10": "Unemployed",
+        "11": "Volunteer",
+        "12": "Other",
+        "888": "Not Applicable",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Earn": {
+        "1": "$9,999 or less",
+        "2": "$10,000 - $19,999",
+        "3": "$20,000 - $29,999",
+        "4": "$30,000 - $39,999",
+        "5": "$40,000 - $49,999",
+        "6": "$50,000 - $59,999",
+        "7": "$60,000 - $69,999",
+        "8": "$70,000 - $79,999",
+        "9": "$80,000 - $89,999",
+        "10": "$90,000 - $99,999",
+        "11": "$100,000 or More",
+        "666": "Variable Did Not Exist",
+        "777": "Refused",
+        "888": "Not Applicable: No competitive employment in the last year",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "EduYears": {
+        "1": "1 Year or Less",
+        "2": "2 Years",
+        "3": "3 Years",
+        "4": "4 Years",
+        "5": "5 Years",
+        "6": "6 Years",
+        "7": "7 Years",
+        "8": "8 Years",
+        "9": "9 Years",
+        "10": "10 Years",
+        "11": "11 or 12 Years: No diploma",
+        "12": "HS Diploma",
+        "13": "Work Toward Associate's",
+        "14": "Associate's Degree",
+        "15": "Work Toward Bachelor's",
+        "16": "Bachelor's Degree",
+        "17": "Work Toward Master's",
+        "18": "Master's Degree",
+        "19": "Work Toward Doctoral Level",
+        "20": "Doctoral Level Degree",
+        "21": "Other",
+        "666": "Variable Did Not Exist",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "EduYearsOld": {
+        "1.0": "8th Grade or Less",
+        "2.0": "9th - 11th Grade",
+        "2.5": "GED",
+        "3.5": "High School Diploma",
+        "4.0": "Trade School",
+        "5.0": "Some College: No degree",
+        "6.0": "Associate Degree",
+        "7.0": "Bachelor's Degree",
+        "8.0": "Master's Degree",
+        "9.0": "Doctorate",
+        "10.0": "Other",
+        "999.0": "Unknown",
+        "3": "Unspecified Secondary Education (3)",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Emp1": {
+        "2": "Full Time Student",
+        "3": "Part Time Student",
+        "4": "Special Education / Other Non-Regular Education",
+        "5": "Competitively Employed",
+        "7": "Taking Care of House or Family",
+        "8": "Special Employed",
+        "9": "Retired: Age-related",
+        "10": "Unemployed: Looking",
+        "11": "Volunteer Work",
+        "12": "Retired: Disability",
+        "13": "Unemployed: Not looking",
+        "14": "Hospitalized Without Pay During Most of 4 Weeks Prior to Injury",
+        "15": "Retired: Other",
+        "16": "On Leave From Work: Not receiving pay",
+        "55": "Other",
+        "666": "Variable Did Not Exist",
+        "777": "Refused",
+        "888": "Not Applicable",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Emp1Old": {
+        "2": "Full Time Student",
+        "3": "Part Time Student",
+        "4": "Special Education/Other Non-Regular Education",
+        "5": "Competitively Employed",
+        "7": "Taking Care of House or Family",
+        "8": "Special Employed",
+        "9": "Retired",
+        "10": "Unemployed",
+        "11": "Volunteer",
+        "12": "Other",
+        "888": "Not Applicable",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Emp2": {
+        "2": "Full Time Student",
+        "3": "Part Time Student",
+        "4": "Special Education / Other Non-Regular Education",
+        "5": "Competitively Employed",
+        "7": "Taking Care of House or Family",
+        "8": "Special Employed",
+        "9": "Retired: Age-related",
+        "10": "Unemployed: Looking",
+        "11": "Volunteer Work",
+        "12": "Retired: Disability",
+        "13": "Unemployed: Not looking",
+        "14": "Hospitalized Without Pay During Most of 4 Weeks Prior to Injury",
+        "15": "Retired: Other",
+        "16": "On Leave From Work: Not receiving pay",
+        "55": "Other",
+        "666": "Variable Did Not Exist",
+        "777": "Refused",
+        "888": "Not Applicable",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "EthnicityF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMBathA": {
+        "0": "Activity Does Not Occur",
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "99": "Unknown: Assessed at more than 72 hours",
+        "66": "Variable Did Not Exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMBathD": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMBedTransA": {
+        "0": "Activity Does Not Occur",
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "99": "Unknown: Assessed at more than 72 hours",
+        "66": "Variable Did Not Exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMBedTransD": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMBladAccA": {
+        "1": "Five or More Accidents in the Past 7 Days",
+        "2": "Four Accidents in the Past 7 Days",
+        "3": "Three Accidents in the Past 7 Days",
+        "4": "Two Accidents in the Past 7 Days",
+        "5": "One Accident in the Past 7 Days",
+        "6": "No Accidents: Uses device",
+        "7": "No Accidents",
+        "99": "Unknown: Assessed at more than 72 hours",
+        "66": "Variable Did Not Exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMBladAccD": {
+        "1": "Five or More Accidents in the Past 7 Days",
+        "2": "Four Accidents in the Past 7 Days",
+        "3": "Three Accidents in the Past 7 Days",
+        "4": "Two Accidents in the Past 7 Days",
+        "5": "One Accident in the Past 7 Days",
+        "6": "No Accidents: Uses device",
+        "7": "No Accidents",
+        "99": "Unknown: Assessed at more than 72 hours",
+        "66": "Variable Did Not Exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMBladAsstA": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMBladAsstD": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMBladMgtA": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMBladMgtD": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMBwlAccA": {
+        "1": "Five or More Accidents in the Past 7 Days",
+        "2": "Four Accidents in the Past 7 Days",
+        "3": "Three Accidents in the Past 7 Days",
+        "4": "Two Accidents in the Past 7 Days",
+        "5": "One Accident in the Past 7 Days",
+        "6": "No Accidents: Uses device",
+        "7": "No Accidents",
+        "99": "Unknown: Assessed at more than 72 hours",
+        "66": "Variable Did Not Exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMBwlAccD": {
+        "1": "Five or More Accidents in the Past 7 Days",
+        "2": "Four Accidents in the Past 7 Days",
+        "3": "Three Accidents in the Past 7 Days",
+        "4": "Two Accidents in the Past 7 Days",
+        "5": "One Accident in the Past 7 Days",
+        "6": "No Accidents: Uses device",
+        "7": "No Accidents",
+        "99": "Unknown: Assessed at more than 72 hours",
+        "66": "Variable Did Not Exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMBwlAsstA": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMBwlAsstD": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMBwlMgtA": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMBwlMgtD": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMCOGA": {
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "FIMCOGD": {
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "FIMCompA": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMCompD": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMDrsdwnA": {
+        "0": "Activity Does Not Occur",
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "99": "Unknown: Assessed at more than 72 hours",
+        "66": "Variable Did Not Exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMDrsdwnD": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMDrupA": {
+        "0": "Activity Does Not Occur",
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "99": "Unknown: Assessed at more than 72 hours",
+        "66": "Variable Did Not Exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMDrupD": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMExpressA": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMExpressD": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMFeedA": {
+        "0": "Activity Does Not Occur",
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "99": "Unknown: Assessed at more than 72 hours",
+        "66": "Variable Did Not Exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMFeedD": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMGroomA": {
+        "0": "Activity Does Not Occur",
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "99": "Unknown: Assessed at more than 72 hours",
+        "66": "Variable Did Not Exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMGroomD": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMLocoD": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMLocoModeD": {
+        "c": "Wheelchair",
+        "w": "Walk",
+        "66": "Variable did not exist",
+        "99": "Unknown: Assessed at more than 72 hours",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMMOTA": {
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "FIMMOTD": {
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "FIMMemA": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMMemD": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMMeth": {
+        "1": "Assessed By Clinical Staff Following UDS Rules",
+        "2": "Assessed By Clinical Staff, Single Administration",
+        "3": "Abstracted From Medical Record",
+        "4": "Assessed By Research Staff Following UDS Rules",
+        "5": "Assessed By Research Staff, Single Administration",
+        "6": "Assessed By Consulting Clinical Staff",
+        "7": "Assessed Using A Mixture Of Above",
+        "66": "Variable Did Not Exist",
+        "88": "Not applicable",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMProbSlvA": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMProbSlvD": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMSocialA": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMSocialD": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMStairsA": {
+        "0": "Activity Does Not Occur",
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "99": "Unknown: Assessed at more than 72 hours",
+        "66": "Variable Did Not Exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMStairsD": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMTOTA": {
+        "9999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "FIMTOTD": {
+        "9999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "FIMToilTransA": {
+        "0": "Activity Does Not Occur",
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "99": "Unknown: Assessed at more than 72 hours",
+        "66": "Variable Did Not Exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMToilTransD": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMToiletA": {
+        "0": "Activity Does Not Occur",
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "99": "Unknown: Assessed at more than 72 hours",
+        "66": "Variable Did Not Exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMToiletD": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMTubTransA": {
+        "0": "Activity Does Not Occur",
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "99": "Unknown: Assessed at more than 72 hours",
+        "66": "Variable Did Not Exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMTubTransD": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMWalkingA": {
+        "0": "Activity Does Not Occur",
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "99": "Unknown: Assessed at more than 72 hours",
+        "66": "Variable Did Not Exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FIMwcA": {
+        "0": "Activity Does Not Occur",
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "99": "Unknown: Assessed at more than 72 hours",
+        "66": "Variable Did Not Exist",
+        "8": "Unspecified Secondary Activity (8)",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "FluencyCorrect": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "FluencyCorrect15_30": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "FluencyCorrect1_15": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "FluencyCorrect30_45": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "FluencyCorrect45_60": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "FluencyInt": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "FluencyRep": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "FluencyTCC": {
+        "1": "Test Administered in full- results valid",
+        "2": "Test Attempted BUT Not Completed (Due to Cognitive/Neurological Reasons)",
+        "3": "Test Attempted BUT Not Completed (Due to non-neurological Physical reasons)",
+        "4": "Test Attempted BUT Not Completed (Refusal to continue)",
+        "5": "Test Attempted BUT Not Completed (Non-English Speaking Patient)",
+        "6": "Test Attempted BUT Not Completed (Logistical Reasons, Other Reasons -- site-specific)",
+        "7": "Test Not Attempted (Due to the severity of Cognitive/Neurological deficits)",
+        "8": "Test Not Attempted (Due to non-neurologic/ Physical reasons)",
+        "9": "Test Not Attempted (Refusal)",
+        "10": "Test Not Attempted (Non-English Speaking Patient)",
+        "11": "Test Not Attempted (Logistical Reasons, Other Reasons \u2013 site-specific)",
+        "12": "Test Not Attempted (Not Consented Within Window)",
+        "13": "Test Not Attempted (Not Admitted to Rehab Within Window At Form I)",
+        "14": "Suspect That a Participant is Writing Down Answers",
+        "16": "Other",
+        "666": "Variable Did Not Exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "GCS": {
+        "77": "Patient Chemically Paralyzed or in Chemically-Induced Coma for Treatment Purposes: Sedated",
+        "88": "Intubated",
+        "999": "Unknown Total GCS Score",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "GCSCat": {
+        "1": "Severe",
+        "2": "Moderate",
+        "3": "Mild",
+        "77": "Intubated",
+        "999": "Missing",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "GCSEye": {
+        "1": NaN,
+        "2": "To Pain",
+        "3": "To Voice",
+        "4": "Spontaneous",
+        "7": "Chemically Paralyzed or Sedated",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "GCSMot": {
+        "1": NaN,
+        "2": "Extension to Pain",
+        "3": "Flexion to Pain",
+        "4": "Withdraws from Pain",
+        "5": "Localizes Pain",
+        "6": "Obeys Commands",
+        "7": "Chemically Paralyzed or Sedated",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "GCSTot": {
+        "77": "Chemically Paralyzed or Sedated",
+        "88": "Intubated",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "GCSVer": {
+        "1": NaN,
+        "2": "Incomprehensible Sounds",
+        "3": "Inappropriate Speech",
+        "4": "Confused",
+        "5": "Oriented",
+        "7": "Chemically Paralyzed or Sedated",
+        "8": "Intubated",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "GED": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: HS diploma or attended college",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "HeartAttack": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "HeartAttackTBIOnset": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Height": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Applicable (Any Arm Or Leg Amputation)",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "HighBloodCholesterol": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "HighBloodCholesterolTBIOnset": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "HospSeiz": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Hypertension": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "HypertensionTBIOnset": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "LOSAcute": {
+        "888": "Not Applicable",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "LOSRehab": {
+        "888": "Not Applicable",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "LOSRehabNoInt": {
+        "888": "Not Applicable",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "LOSTot": {
+        "888": "Not Applicable",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "LivWhoDis": {
+        "1": "Alone",
+        "2": "With spouse or significant other",
+        "3": "Other family",
+        "4": "Someone else",
+        "88": "NA: Expired in Rehab",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "LivWhoInj": {
+        "1": "Alone",
+        "2": "Spouse or Significant Other",
+        "3": "Other Family",
+        "4": "Someone Else",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "LivWhoInjOld": {
+        "1": "Alone",
+        "2": "Spouse or Significant Other",
+        "3": "Other Family",
+        "4": "Someone Else",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "LiverDisease": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "LiverDiseaseTBIOnset": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "LngSpkHmF": {
+        "1": "English",
+        "2": "Spanish",
+        "3": "Other Language",
+        "77": "Refused",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MILCombatF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not Applicable: Never served in military",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MILServeF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MILYearsF": {
+        "666.0": "Variable Did Not Exist",
+        "777.0": "Refused",
+        "888.0": "Not Applicable: Never served in military",
+        "999.0": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "MJPrescribe": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not applicable",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MJUse": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not applicable",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOB12StepsA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOB12StepsD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOB1StepCurbA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOB1StepCurbD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOB4StepsA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOB4StepsD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBCarTranA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBCarTranD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBChairTranA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBChairTranD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBLyingA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBLyingD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBPickUpA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBPickUpD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBRollA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBRollD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBScooterTypeA": {
+        "1": "Manual",
+        "2": "Motorized",
+        "88": NaN,
+        "66": "Variable did not exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBScooterTypeD": {
+        "1": "Manual",
+        "2": "Motorized",
+        "88": NaN,
+        "66": "Variable did not exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBSitA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBSitD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBSitStandA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBSitStandD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBToilettranA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBToilettranD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBWCScooterA": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable did not exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBWCScooterD": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable did not exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBWCtypeA": {
+        "1": "Manual",
+        "2": "Motorized",
+        "88": NaN,
+        "66": "Variable did not exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBWCtypeD": {
+        "1": "Manual",
+        "2": "Motorized",
+        "88": NaN,
+        "66": "Variable did not exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBWalk10ftA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBWalk10ftD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBWalk150ftA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBWalk150ftD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBWalkUnevenA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBWalkUnevenD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBWalkturnA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBWalkturnD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBWheel150ftA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBWheel150ftD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBWheel50ftA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MOBWheel50ftD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Mar": {
+        "1": "Single (Never Married)",
+        "2": "Married",
+        "3": "Divorced",
+        "4": "Separated",
+        "5": "Widowed",
+        "7": "Other",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MntlEver": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not Applicable",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MntlPrior": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not Applicable",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MostSevere": {
+        "1": "No LOC",
+        "2": "Dazed",
+        "3": "LOC Less than 30 min or unknown duration",
+        "4": "LOC 30min to 24Hr",
+        "5": "LOC more than 24Hr",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MovementDisorder": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "MovementDisorderTBIOnset": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "OCC": {
+        "1": "Executive, Administrative, and Managerial",
+        "2": "Professional Specialty",
+        "3": "Technicians and Related Support",
+        "4": "Sales",
+        "5": "Administrative Support Including Clerical",
+        "6": "Private Household",
+        "7": "Protective Service",
+        "8": "Service, Except Protective and Household",
+        "9": "Farming, Forestry, and Fishing",
+        "10": "Precision Production, Craft, and Repair",
+        "11": "Machine Operators, Assemblers, and Inspectors",
+        "12": "Transportation and Material Moving",
+        "13": "Handlers, Equipment Cleaners, Helpers, and Laborers  ",
+        "14": "Military Occupations",
+        "777": "Refused",
+        "888": "Not Applicable",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Osteoarthritis": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "OsteoarthritisTBIOnset": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "PROBLEMUse": {
+        "0": "No",
+        "1": "Yes",
+        "77": "Refused",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "PRTHome": {
+        "0": NaN,
+        "1": "1 - 4 Hours",
+        "2": "5 - 9 Hours",
+        "3": "10 - 19 Hours",
+        "4": "20 - 34 Hours",
+        "5": "35 or More Hours",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "PRTSchool": {
+        "0": NaN,
+        "1": "1 - 4 Hours",
+        "2": "5 - 9 Hours",
+        "3": "10 - 19 Hours",
+        "4": "20 - 34 Hours",
+        "5": "35 or More Hours",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "PRTVol": {
+        "0": NaN,
+        "1": "One Time",
+        "2": "Two Times",
+        "3": "Three Times",
+        "4": "Four Times",
+        "5": "Five or More Times",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "PRTWork": {
+        "0": NaN,
+        "1": "1 - 4 Hours",
+        "2": "5 - 9 Hours",
+        "3": "10 - 19 Hours",
+        "4": "20 - 34 Hours",
+        "5": "35 or More Hours",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "PTADays": {
+        "8888": "Person Still in PTA at time of Rehab Discharge",
+        "9999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "PTAMethod": {
+        "1": "Acute Chart Review",
+        "2": "GOAT",
+        "3": "GOAT-R",
+        "4": "O-Log",
+        "5": "Clinical Judgement: GOAT/O-Log not possible due to language functioning",
+        "6": "Non-Verbal Version of the O-Log",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable:  PTA has not been tracked",
+        "9": NaN,
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "PTSDHlth": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "PTSDTBIOnset": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "PanicAttacks": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "PanicAttacksTBIOnset": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "PreconBlind": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "PreconDeaf": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "PreconImpair": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "PreconPhys": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "PrelimDress": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "PrelimLearn": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "PrelimOuthm": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "PrelimWork": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "PriorSeiz": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "PsyHosp": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not Applicable",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "PsyHospPrior": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not Applicable",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "RTSBP": {
+        "6666": "Variable Did Not Exist",
+        "8888": "Unmeasurable",
+        "9999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "RTSResp": {
+        "6666": "Variable Did Not Exist",
+        "8888": "Unmeasurable: Bagged or on mechanical ventilation",
+        "9999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "RURALadm": {
+        "1": "Rural",
+        "2": "Urban",
+        "3": "Suburban",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "RURALdc": {
+        "1": "Rural",
+        "2": "Urban",
+        "3": "Suburban",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Race": {
+        "1": "White",
+        "2": "Black",
+        "3": "Asian/Pacific Islander",
+        "4": "Native American",
+        "5": "Hispanic Origin",
+        "6": "Biracial or Multiracial",
+        "7": "Other",
+        "88": "Not Applicable",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "RaceAsnF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "RaceBlkF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "RaceIndF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "RacePIF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "RacePrimary": {
+        "1": "White",
+        "2": "Black",
+        "3": "Asian/Pacific Islander",
+        "4": "Native American",
+        "5": "Hispanic Origin",
+        "6": "Biracial or Multiracial",
+        "7": "Other",
+        "88": "Not Applicable",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "RaceWhtF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Reason01": {
+        "0": "Incorrect",
+        "1": "Correct",
+        "66": "Variable Did Not Exist",
+        "88": "Not Tested",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Reason02": {
+        "0": "Incorrect",
+        "1": "Correct",
+        "66": "Variable Did Not Exist",
+        "88": "Not Tested",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Reason03": {
+        "0": "Incorrect",
+        "1": "Correct",
+        "66": "Variable Did Not Exist",
+        "88": "Not Tested",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Reason04": {
+        "0": "Incorrect",
+        "1": "Correct",
+        "66": "Variable Did Not Exist",
+        "88": "Not Tested",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Reason05": {
+        "0": "Incorrect",
+        "1": "Correct",
+        "66": "Variable Did Not Exist",
+        "88": "Not Tested",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "ReasonCorrect": {
+        "66": "Variable Did Not Exist",
+        "88": "Not Tested",
+        "99": "Unknown",
+        "666": "Variable did not exist",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "ReasonTCC": {
+        "1": "Test Administered in full- results valid",
+        "2": "Test Attempted BUT Not Completed (Due to Cognitive/Neurological Reasons)",
+        "3": "Test Attempted BUT Not Completed (Due to non-neurological Physical reasons)",
+        "4": "Test Attempted BUT Not Completed (Refusal to continue)",
+        "5": "Test Attempted BUT Not Completed (Non-English Speaking Patient)",
+        "6": "Test Attempted BUT Not Completed (Logistical Reasons, Other Reasons -- site-specific)",
+        "7": "Test Not Attempted (Due to the severity of Cognitive/Neurological deficits)",
+        "8": "Test Not Attempted (Due to non-neurologic/ Physical reasons)",
+        "9": "Test Not Attempted (Refusal)",
+        "10": "Test Not Attempted (Non-English Speaking Patient)",
+        "11": "Test Not Attempted (Logistical Reasons, Other Reasons \u2013 site-specific)",
+        "12": "Test Not Attempted (Not Consented Within Window)",
+        "13": "Test Not Attempted (Not Admitted to Rehab Within Window At Form I)",
+        "14": "Suspect That a Participant is Writing Down Answers",
+        "16": "Other",
+        "666": "Variable Did Not Exist",
+        "888": "Variable did not exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "RehabPay1": {
+        "1": "Medicare",
+        "2": "Medicaid",
+        "3": "Workers Compensation",
+        "4": "Private Insurance",
+        "7": "Self or Private Pay",
+        "8": "State or County",
+        "10": "Auto Insurance",
+        "14": "Charity",
+        "15": "Other",
+        "55": "Payor Source Pending",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "RehabPay2": {
+        "1": "Medicare",
+        "2": "Medicaid",
+        "3": "Workers Compensation",
+        "4": "Private Insurance",
+        "7": "Self or Private Pay",
+        "8": "State or County",
+        "10": "Auto Insurance",
+        "14": "Charity",
+        "15": "Other",
+        "55": "Payor Source Pending",
+        "888": "Not Applicable: No secondary payor",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "ResDis": {
+        "1": "Private Residence",
+        "2": "Nursing Home/Subacute Care",
+        "3": "Adult Home",
+        "4": "Correctional Institution",
+        "5": "Hotel/Motel",
+        "6": "Homeless",
+        "7": "Hospital: Acute care",
+        "8": "Hospital: Rehabilitation",
+        "9": "Hospital: Other",
+        "10": "Other",
+        "888": "Not Applicable: Expired in rehab",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "ResInj": {
+        "1": "Private Residence",
+        "2": "Nursing Home/Subacute Care",
+        "3": "Adult Home",
+        "4": "Correctional Institution",
+        "5": "Hotel/Motel",
+        "6": "Homeless",
+        "7": "Hospital: Acute care",
+        "8": "Hospital: Rehabilitation",
+        "9": "Hospital: Other",
+        "10": "Other",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "RheumatoidArthritis": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "RheumatoidArthritisTBIOnset": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "SCEatA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "SCEatD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "SCFootwearA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "SCFootwearD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "SCI": {
+        "0": "No",
+        "1": "Yes",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "SCLBDressA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "SCLBDressD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "SCOralHygA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "SCOralHygD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "SCShowerA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "SCShowerD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "SCToiletA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "SCToiletD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "SCUBDressA": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "SCUBDressD": {
+        "1": "Dependent",
+        "2": "Substantial/maximal assistance",
+        "3": "Partial/moderate assistance",
+        "4": "Supervision or touching assistance",
+        "5": "Setup or clean-up assistance ",
+        "6": "Independent",
+        "66": "Variable did not exist",
+        "77": "Patient refused",
+        "81": "Not applicable",
+        "82": "Not attempted due to environmental limitations",
+        "83": "Not attempted due to medical condition or safety concerns",
+        "84": "Did not meet criteria for administration",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Seiz24": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Seiz24to7": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Seiz7Plus": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "SexF": {
+        "1": "Female",
+        "2": "Male",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "SmkCig": {
+        "1": "Not At All",
+        "2": "Some Days",
+        "3": "Everyday",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "SpEd": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Stroke": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "StrokeTBIOnset": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "Suicide": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not Applicable",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "SuicidePrior": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not Applicable",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "TBIInjury": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "TBIRepInjury": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not Applicable",
+        "99": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "TBI_IDAsked": {
+        "1": "Yes",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "TFCDays": {
+        "7777": "Patient Never Able to Follow Simple Motor Commands",
+        "9999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "Weight": {
+        "6666": "Variable Did Not Exist",
+        "8888": "Not Applicable (Any Arm Or Leg Amputation)",
+        "9999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "WordRecallCorrect": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "WordRecallInt": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "WordRecallMiddle": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "WordRecallPrimacy": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "WordRecallRecency": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "WordRecallRep": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "WordRecallTCC": {
+        "1": "Test Administered in full- results valid",
+        "2": "Test Attempted BUT Not Completed (Due to Cognitive/Neurological Reasons)",
+        "3": "Test Attempted BUT Not Completed (Due to non-neurological Physical reasons)",
+        "4": "Test Attempted BUT Not Completed (Refusal to continue)",
+        "5": "Test Attempted BUT Not Completed (Non-English Speaking Patient)",
+        "6": "Test Attempted BUT Not Completed (Logistical Reasons, Other Reasons -- site-specific)",
+        "7": "Test Not Attempted (Due to the severity of Cognitive/Neurological deficits)",
+        "8": "Test Not Attempted (Due to non-neurologic/ Physical reasons)",
+        "9": "Test Not Attempted (Refusal)",
+        "10": "Test Not Attempted (Non-English Speaking Patient)",
+        "11": "Test Not Attempted (Logistical Reasons, Other Reasons \u2013 site-specific)",
+        "12": "Test Not Attempted (Not Consented Within Window)",
+        "13": "Test Not Attempted (Not Admitted to Rehab Within Window At Form I)",
+        "14": "Suspect That a Participant is Writing Down Answers",
+        "16": "Other",
+        "666": "Variable Did Not Exist",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "YearsinUSF": {
+        "777": "Refused",
+        "888": "Not Applicable: Born in US",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "YearsinUSFUPF": {
+        "888": "Not Applicable: Born in US",
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    },
+    "ZipInj": {
+        "66666": "Variable Did Not Exist",
+        "88888": "Not Applicable: Expired in Rehab; Outside US",
+        "99999": "Unknown",
+        "data_type": {
+            "data_type": "qualitative"
+        }
+    },
+    "BMI": {
+        "999": "Unknown",
+        "data_type": {
+            "data_type": "quantitative"
+        }
+    }
+}
