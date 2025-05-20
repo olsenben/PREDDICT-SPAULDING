@@ -8,10 +8,7 @@ Run this script to processed Form1.csv. Make sure your data is in the correct di
 
 ...PREDDICT-Spaulding\Database\TBIMSPublic.2024-11-01\Data
 
-KNOWN ISSUES: B3TCOMP,	B3TEF,	B3TEM,	BackCountDigits_i_n,	BackDigitCorrect_i_n, DelayWordRecallCorrect_i_n,	FluencyCorrect_i_n,
-DelayWordRecallCorrect_i_n,	FluencyCorrect_i_n, ReasonCorrect_i_n,	WordRecallCorrect_i_n  have some weird outputs that need to be validated.
-
-Some np.nan values are casting to strings in weird ways that will need to be addressed. super weird 
+KNOWN ISSUES: Some np.nan values are casting to strings in weird ways that will need to be addressed. super weird 
 
  """
 
@@ -51,7 +48,7 @@ def process_mixed_variables(df, value_labels_dict, replace_col=False, code_col=F
         code_keys = set(normalize_code(k) for k in codes_dict.keys())
 
         # Convert entries for numeric masking
-        temp_series = temp_series.apply(lambda x: str(float(x)) if pd.notna(x) and str(x).replace('.', '', 1).isdigit() else str(x))
+        temp_series = temp_series.apply(lambda x: str(float(x)) if pd.notna(x) and str(x).replace('.', '', 1).isdigit() else x)
         clean_series = pd.to_numeric(temp_series.mask(temp_series.isin(code_keys)), errors=errors)
 
         mapped_dict = {str(float(k)) if k.isdigit() else k: v for k, v in codes_dict.items()}
@@ -93,10 +90,10 @@ cont_cols = code_dict['numeric_cols']
 
 df_cont = df[cont_cols]
 
-df_cont_clean = process_mixed_variables(df_cont, code_dict, replace_col=True, code_col=True, errors='coerce')
+df_cont_clean = process_mixed_variables(df_cont, code_dict, replace_col=True, code_col=False, errors='coerce')
 
 #remove codes from qualitative data, keep data in place
-cat_cols = code_dict['categorical_cols']
+cat_cols = [i for i in code_dict['categorical_cols'] if i in df.columns]
 
 df_cat = df[cat_cols]
 
@@ -122,7 +119,7 @@ cat_col_missing_data_dict = {}
 for col in cat_cols:
     cat_col_missing_data_dict[col] = missing_data_codes_dict
 
-df_cat_clean = process_mixed_variables(df_cat, cat_col_missing_data_dict, replace_col=True, code_col=True, errors='ignore')
+df_cat_clean = process_mixed_variables(df_cat, cat_col_missing_data_dict, replace_col=True, code_col=False, errors='ignore')
 
 #combine
 df_clean = pd.concat([df_cont_clean, df_cat_clean], axis=1)
@@ -140,6 +137,14 @@ df_clean['AgeGroup'] = pd.cut(df_clean['AGENoPHI'].fillna(-1), bins=bins, labels
 
 df_clean.loc[df_clean['AGENoPHI'] == 777.0, 'AgeGroup'] = 9
 
+#bin injury years
+df_clean['InjuryPeriod'] = pd.cut(df_clean['INJYEAR'].fillna(-1), bins=[1980, 1990, 2000, 2010, 2020], labels=list(range(4)))
+
+#one hot encode FIMLocoModeD 0=Wheelchair, 1=Walk
+df_clean['FIMLocoModeD'] = np.where(
+    df_clean['FIMLocoModeD'] == 'w', 1,
+    np.where(df_clean['FIMLocoModeD'] == 'c', np.nan, 0))
+
 #BackCountTime is basically just over or under 30 seconds with the vast majority over 30 seconds
 #create new binary column for BackCountTime_over_30, 1=True, 0=False
 df_clean['BackCountTime'].astype(float)
@@ -155,18 +160,19 @@ df_clean.loc[df_clean['BackCountTime'] >= 30.0, 'BackCountTime_over_30'] = 1
 #all these can be converted to str unless needed for ml purposes
 str_cols = ['DeathCause1', 'DeathCause2', 'DeathECode', 'ZipInj']
 df_str_cols = df_clean[str_cols]
-df_str_cols_clean = process_mixed_variables(df_str_cols, code_dict, replace_col=True, code_col=True, errors='ignore')
+df_str_cols_clean = process_mixed_variables(df_str_cols, code_dict, replace_col=True, code_col=False, errors='ignore')
 df_clean = df_clean.drop(columns=df_str_cols, errors='ignore')
 df_clean = pd.concat([df_clean, df_str_cols_clean], axis=1)
 
-for col in str_cols:
-    df_clean[col] = df_clean[col].astype(str).str.zfill(5)
+# for col in str_cols:
+#     df_clean[col] = df_clean[col].astype(str).str.zfill(5)
 
 #FluencyInt has a few outliers 
 df_clean['FluencyInt'] = df_clean['AGENoPHI'].mask((df_clean['FluencyInt'] <= 0.0) | (df_clean['FluencyInt'] > 100), np.nan)
 
 #PTAMethod has an additional code 9, since there are so few I will drop these as an error
 df_clean['PTAMethod'] = df_clean['PTAMethod'].mask(df_clean['PTAMethod'] == 9.0, np.nan)
+
 
 
 output_path = os.path.join(base_dir, '..', 'Database', 'processed')
@@ -176,4 +182,4 @@ filename = os.path.join(output_path, 'form_1_cleaned.csv')
 if not os.path.exists(output_path):
     os.makedirs(output_path)
 
-df_clean.to_csv(filename)
+df_clean.to_csv(filename, index=False)
