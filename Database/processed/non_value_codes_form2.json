@@ -1,0 +1,2887 @@
+{
+    "ADDADHDF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "ADDADHDTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "AGENoPHIF": {
+        "777": "89 Years Old or Older",
+        "999": "Unknown"
+    },
+    "ALC4DrinksF": {
+        "666": "Variable Did Not Exist",
+        "777": "Refused",
+        "881": "Not Applicable",
+        "882": "Not Applicable: Variable not due this year",
+        "999": "Unknown"
+    },
+    "ALC5DrinksF": {
+        "666": "Variable Did Not Exist",
+        "777": "Refused",
+        "881": "Not Applicable",
+        "882": "Not Applicable: Variable not due this year",
+        "999": "Unknown"
+    },
+    "ALCAnyDrinkF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "81": "Not Applicable",
+        "82": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "ALCDrinksF": {
+        "666": "Variable Did Not Exist",
+        "777": "Refused",
+        "881": "Not Applicable",
+        "882": "Not Applicable: Variable not due this year",
+        "999": "Unknown"
+    },
+    "ALCMonthF": {
+        "666": "Variable Did Not Exist",
+        "777": "Refused",
+        "881": "Not Applicable",
+        "882": "Not Applicable: Variable not due this year",
+        "999": "Unknown"
+    },
+    "ALCWeekF": {
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "81": "Not Applicable",
+        "82": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "AlcoholismF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "AlcoholismTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "AnxietyF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "AnxietyTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "BMICatF": {
+        "1": "Very severely underweight",
+        "2": "Severely underweight",
+        "3": "Underweight",
+        "4": "Normal",
+        "5": "Overweight",
+        "6": "Obese Class I",
+        "7": "Obese Class II",
+        "8": "Obese Class III",
+        "99": "Unknown"
+    },
+    "BTACTAdmF": {
+        "1": "Phone",
+        "2": "In-person",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Battery not given"
+    },
+    "BTACTLanguageF": {
+        "1": "English",
+        "2": "Spanish",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "BTACTTCCF": {
+        "1": "Test Administered in full- results valid",
+        "2": "Test Attempted BUT Not Completed (Due to Cognitive/Neurological Reasons)",
+        "3": "Test Attempted BUT Not Completed (Due to non-neurological Physical reasons)",
+        "4": "Test Attempted BUT Not Completed (Refusal to continue)",
+        "5": "Test Attempted BUT Not Completed (Non-English Speaking Patient)",
+        "6": "Test Attempted BUT Not Completed (Logistical Reasons, Other Reasons -- site-specific)",
+        "7": "Test Not Attempted (Due to the severity of Cognitive/Neurological deficits)",
+        "8": "Test Not Attempted (Due to non-neurologic/ Physical reasons)",
+        "9": "Test Not Attempted (Refusal)",
+        "10": "Test Not Attempted (Non-English Speaking Patient)",
+        "11": "Test Not Attempted (Logistical Reasons, Other Reasons \u2013 site-specific)",
+        "13": "Test Not Attempted (Form 1: Not Admitted In Window/Form 2: Collected Out of Window)",
+        "14": "Suspect That a Participant is Writing Down Answers",
+        "16": "Other",
+        "666": "Variable Did Not Exist",
+        "888": "Not Applicable. No Data From Person with TBI (Form II)"
+    },
+    "BackCountDigitsF": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown"
+    },
+    "BackCountErrorsF": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown"
+    },
+    "BackCountLastNumF": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown"
+    },
+    "BackCountTCCF": {
+        "1": "Test Administered in full- results valid",
+        "2": "Test Attempted BUT Not Completed (Due to Cognitive/Neurological Reasons)",
+        "3": "Test Attempted BUT Not Completed (Due to non-neurological Physical reasons)",
+        "4": "Test Attempted BUT Not Completed (Refusal to continue)",
+        "5": "Test Attempted BUT Not Completed (Non-English Speaking Patient)",
+        "6": "Test Attempted BUT Not Completed (Logistical Reasons, Other Reasons -- site-specific)",
+        "7": "Test Not Attempted (Due to the severity of Cognitive/Neurological deficits)",
+        "8": "Test Not Attempted (Due to non-neurologic/ Physical reasons)",
+        "9": "Test Not Attempted (Refusal)",
+        "10": "Test Not Attempted (Non-English Speaking Patient)",
+        "11": "Test Not Attempted (Logistical Reasons, Other Reasons \u2013 site-specific)",
+        "13": "Test Not Attempted (Not Admitted To Rehab Within Window At Form I)",
+        "14": "Suspect That a Participant is Writing Down Answers",
+        "16": "Other",
+        "666": "Variable Did Not Exist",
+        "888": "Not Applicable, No Data From Person with TBI"
+    },
+    "BackCountTimeF": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown"
+    },
+    "BackDigitCorrectF": {
+        "66": "Variable Did Not Exist",
+        "88": "Not Tested",
+        "99": "Unknown"
+    },
+    "BackDigitTCCF": {
+        "1": "Test Administered in full- results valid",
+        "2": "Test Attempted BUT Not Completed (Due to Cognitive/Neurological Reasons)",
+        "3": "Test Attempted BUT Not Completed (Due to non-neurological Physical reasons)",
+        "4": "Test Attempted BUT Not Completed (Refusal to continue)",
+        "5": "Test Attempted BUT Not Completed (Non-English Speaking Patient)",
+        "6": "Test Attempted BUT Not Completed (Logistical Reasons, Other Reasons -- site-specific)",
+        "7": "Test Not Attempted (Due to the severity of Cognitive/Neurological deficits)",
+        "8": "Test Not Attempted (Due to non-neurologic/ Physical reasons)",
+        "9": "Test Not Attempted (Refusal)",
+        "10": "Test Not Attempted (Non-English Speaking Patient)",
+        "11": "Test Not Attempted (Logistical Reasons, Other Reasons \u2013 site-specific)",
+        "13": "Test Not Attempted (Not Admitted To Rehab Within Window At Form I)",
+        "14": "Suspect That a Participant is Writing Down Answers",
+        "16": "Other",
+        "666": "Variable Did Not Exist",
+        "888": "Not Applicable, No Data From Person with TBI (Form 2)"
+    },
+    "BipolarDisorderF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "BipolarDisorderTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "CVD19PosF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not Applicable",
+        "99": "Unknown"
+    },
+    "CVD19VaccF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not Applicable",
+        "99": "Unknown"
+    },
+    "CVD19VentF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not Applicable",
+        "99": "Unknown"
+    },
+    "CataractsF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "CataractsTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "ChronicPainF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "ChronicPainTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "ChwTobF": {
+        "1": "Not At All",
+        "2": "Some Days",
+        "3": "Everyday",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown"
+    },
+    "CollectionFormatF": {
+        "1": "Online Interview",
+        "2": "Paper Interview"
+    },
+    "CollectionLanguageF": {
+        "1": "English",
+        "2": "Spanish",
+        "3": "Other"
+    },
+    "CollectionMethodPrimaryF": {
+        "1": "In Person Interview",
+        "2": "Telephone Interview",
+        "3": "Questionnaire Mailing",
+        "4": "Data Obtained from Second Source",
+        "81": "NA: Funding Not available",
+        "82": "Not Applicable",
+        "99": "Unknown"
+    },
+    "CollectionMethodSecondaryF": {
+        "1": "In Person Interview",
+        "2": "Telephone Interview",
+        "3": "Questionnaire Mailing",
+        "4": "Data Obtained from Second Source",
+        "81": "NA: Funding Not available",
+        "82": "NA: No Secondary Method of Data Collection",
+        "99": "Unknown"
+    },
+    "CollectionSourcePrimaryF": {
+        "0": "Participant",
+        "1": "Spouse",
+        "2": "Parent(s)",
+        "3": "Sibling",
+        "4": "Adult Child",
+        "5": "Boyfriend, girlfriend, fianc\u00e9",
+        "7": "Other relative",
+        "8": "Friend",
+        "9": "Professional Caregiver",
+        "10": "Medical Record",
+        "20": "Other",
+        "888": NaN,
+        "999": "Unknown"
+    },
+    "CollectionSourceSecondaryF": {
+        "0": "Participant",
+        "1": "Spouse",
+        "2": "Parent(s)",
+        "3": "Sibling",
+        "4": "Adult Child",
+        "5": "Boyfriend, girlfriend, fianc\u00e9",
+        "7": "Other relative",
+        "8": "Friend",
+        "9": "Professional Caregiver",
+        "10": "Medical Record",
+        "20": "Other",
+        "888": "NA: No Secondary Data Source",
+        "999": "Unknown"
+    },
+    "CollectiontranslationserviceF": {
+        "0": "No",
+        "1": "Yes",
+        "88": "NA - Interview conducted in English"
+    },
+    "CongestiveHeartFailureF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "CongestiveHeartFailureTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "DAYSTo1stEmpF": {
+        "66666": "Variable Did Not Exist",
+        "77777": "Refused",
+        "88888": "No Competitive Employment Since Injury",
+        "88899": "Began Competitive Employment in Prior Follow-up Year",
+        "99999": "Unknown When Competitive Employment Began"
+    },
+    "DAYStoDEATHF": {
+        "999999": "Unknown"
+    },
+    "DAYStoFUF": {
+        "999999": "Unknown"
+    },
+    "DRINKCatF": {
+        "0": "Abstaining",
+        "1": "Light",
+        "2": "Moderate",
+        "3": "Heavy",
+        "99": "Unknown"
+    },
+    "DRSEmpF": {
+        "0": "Not Restricted",
+        "0.5": "Between Not Restricted andSselective Jobs: Competitive",
+        "1": "Selected Jobs: Competitive",
+        "1.5": "Between Selected Jobs and Sheltered Workshop",
+        "2": "Sheltered Workshop: Non-competitive",
+        "2.5": "Between Sheltered Workshop and Not Employable",
+        "3": "Not Employable",
+        "9.9": "Unknown"
+    },
+    "DRSEyeF": {
+        "0": "Spontaneous",
+        "1": "To Speech",
+        "2": "To Pain",
+        "3": NaN,
+        "7": "Not Applicable: Variable not due this year",
+        "9": "Unknown"
+    },
+    "DRSF": {
+        "777": "Refused"
+    },
+    "DRSFeedF": {
+        "0": "Complete",
+        "0.5": "Between Complete and Partial",
+        "1": "Partial",
+        "1.5": "Between Partial and Minimal",
+        "2": "Minimal",
+        "2.5": "Between Minimal and None",
+        "3": NaN,
+        "7.7": "Not Applicable: Variable not due this year",
+        "9.9": "Unknown"
+    },
+    "DRSFuncF": {
+        "0": "Completely Independent",
+        "0.5": "Between Completely Independent and Independent in Special Environment",
+        "1": "Independent in Special Environment",
+        "1.5": "Between Independent in Special Environment and Mildly Dependent",
+        "2": "Mildly Dependent: Limited assistance",
+        "2.5": "Between Mildly Dependent and Moderately Dependent",
+        "3": "Moderately Dependent: Moderate assistance",
+        "3.5": "Between Moderately Dependent and Markedly Dependent",
+        "4": "Markedly Dependent: Assist all major activities, all times",
+        "4.5": "Between Markedly Dependent and Totally Dependent",
+        "5": "Totally Dependent: 24 hour nursing care",
+        "9.9": "Unknown"
+    },
+    "DRSGroomF": {
+        "9": "Unknown",
+        "1": "Partial"
+    },
+    "DRSHighF": {
+        "777": "Refused"
+    },
+    "DRSLowF": {
+        "777": "Refused"
+    },
+    "DRSMotF": {
+        "0": "Obeying",
+        "1": "Localizing",
+        "2": "Withdrawing",
+        "3": "Flexing",
+        "4": "Extending",
+        "5": NaN,
+        "7": "Not Applicable: Variable not due this year",
+        "9": "Unknown"
+    },
+    "DRSToiletF": {
+        "0": "Complete",
+        "0.5": "Between Complete and Partial",
+        "1": "Partial",
+        "1.5": "Between Partial and Minimal",
+        "2": "Minimal",
+        "2.5": "Between Minimal and None",
+        "3": NaN,
+        "7.7": "Not Applicable: Variable not due this year",
+        "9.9": "Unknown"
+    },
+    "DRSVerF": {
+        "0": "Oriented",
+        "1": "Confused",
+        "2": "Inappropriate",
+        "3": "Incomprehensible",
+        "4": NaN,
+        "7": "Not Applicable: Variable not due this year",
+        "9": "Unknown"
+    },
+    "DRS_PIEmpf": {
+        "0": "Not Restricted",
+        "1": "Selected Jobs: Competitive",
+        "2": "Sheltered Workshop: Non-competitive",
+        "3": "Not Employable"
+    },
+    "DRS_PIEyeF": {
+        "0": "Spontaneous",
+        "1": "To Speech",
+        "2": "To Pain",
+        "3": NaN,
+        "99": "Unknown"
+    },
+    "DRS_PIF": {
+        "999": "Unknown"
+    },
+    "DRS_PIFeedF": {
+        "0": "Complete",
+        "1": "Partial",
+        "2": "Minimal",
+        "3": NaN
+    },
+    "DRS_PIFunctF": {
+        "0": "Completely Independent",
+        "1": "Independent in Special Environment",
+        "2": "Mildly Dependent: Limited assistance",
+        "3": "Moderately Dependent: Moderate assistance",
+        "4": "Markedly Dependent: Assist all major activities, all times",
+        "5": "Totally Dependent: 24 hour nursing care",
+        "99": "Unknown"
+    },
+    "DRS_PIGroomF": {
+        "0": "Complete",
+        "1": "Partial",
+        "2": "Minimal",
+        "3": NaN,
+        "99": "Unknown"
+    },
+    "DRS_PIMotF": {
+        "0": "Obeying",
+        "1": "Localizing",
+        "2": "Withdrawing",
+        "3": "Flexing",
+        "4": "Extending",
+        "5": NaN,
+        "99": "Unknown"
+    },
+    "DRS_PIToiletF": {
+        "0": "Complete",
+        "1": "Partial",
+        "2": "Minimal",
+        "3": NaN,
+        "99": "Unknown"
+    },
+    "DRS_PIVerF": {
+        "0": "Oriented",
+        "1": "Confused",
+        "2": "Inappropriate",
+        "3": "Incomprehensible",
+        "4": NaN,
+        "99": "Unknown"
+    },
+    "DRS_PI_ORIGF": {
+        "999": "Unknown"
+    },
+    "DeathCause1F": {
+        "44444": "Expired: Cause unknown",
+        "88888": "Not Applicable: Person alive or death not due to external causes",
+        "99999": "Unknown if person Expired"
+    },
+    "DeathCause2F": {
+        "44444": "Expired: Cause unknown",
+        "88888": "Not Applicable: Person alive or death not due to external causes",
+        "99999": "Unknown if person Expired"
+    },
+    "DeathECodeF": {
+        "44444": "Expired: Cause unknown",
+        "88888": "Not Applicable: Person alive or death not due to external causes",
+        "99999": "Unknown if person Expired"
+    },
+    "DelayWordRecallCorrectF": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown"
+    },
+    "DelayWordRecallIntF": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown"
+    },
+    "DelayWordRecallMiddleF": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown"
+    },
+    "DelayWordRecallPrimacyF": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown"
+    },
+    "DelayWordRecallRecencyF": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown"
+    },
+    "DelayWordRecallRepF": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown"
+    },
+    "DelayWordRecallTCCF": {
+        "1": "Test Administered in full- results valid",
+        "2": "Test Attempted BUT Not Completed (Due to Cognitive/Neurological Reasons)",
+        "3": "Test Attempted BUT Not Completed (Due to non-neurological Physical reasons)",
+        "4": "Test Attempted BUT Not Completed (Refusal to continue)",
+        "5": "Test Attempted BUT Not Completed (Non-English Speaking Patient)",
+        "6": "Test Attempted BUT Not Completed (Logistical Reasons, Other Reasons -- site-specific)",
+        "7": "Test Not Attempted (Due to the severity of Cognitive/Neurological deficits)",
+        "8": "Test Not Attempted (Due to non-neurologic/ Physical reasons)",
+        "9": "Test Not Attempted (Refusal)",
+        "10": "Test Not Attempted (Non-English Speaking Patient)",
+        "11": "Test Not Attempted (Logistical Reasons, Other Reasons \u2013 site-specific)",
+        "13": "Test Not Attempted (Not Admitted To Rehab Within Window At Form I)",
+        "14": "Suspect That a Participant is Writing Down Answers",
+        "16": "Other",
+        "666": "Variable Did Not Exist",
+        "888": "Not Applicable, No Data From Person with TBI"
+    },
+    "DementiaF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "DementiaTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "DepressionHlthF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "DepressionHlthTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "DiabetesHighBloodSugarF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "DiabetesHighBloodSugarTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "DrugAddictionF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "DrugAddictionTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "DrugsF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not applicable",
+        "99": "Unknown"
+    },
+    "EDUCATIONF": {
+        "1": "8th Grade or Less",
+        "2": "9 - 11",
+        "2.5": "GED",
+        "3": "HS/GED",
+        "3.5": "HS",
+        "4": "Trade",
+        "5": "Some College",
+        "6": "Associate",
+        "7": "Bachelors",
+        "8": "Masters",
+        "9": "Doctorate",
+        "77": "Other",
+        "999": "Unknown"
+    },
+    "EMPLOYMENTF": {
+        "2": "Full Time Student",
+        "3": "Part Time Student",
+        "4": "Special Education / Other Non-Regular Education",
+        "5": "Competitively Employed",
+        "7": "Taking Care of House or Family",
+        "8": "Special Employed",
+        "9": "Retired",
+        "10": "Unemployed",
+        "11": "Volunteer Work",
+        "12": "Other",
+        "888": "Not Applicable",
+        "999": "Unknown"
+    },
+    "EarnF": {
+        "1": "$9,999 or less",
+        "2": "$10,000 - $19,999",
+        "3": "$20,000 - $29,999",
+        "4": "$30,000 - $39,999",
+        "5": "$40,000 - $49,999",
+        "6": "$50,000 - $59,999",
+        "7": "$60,000 - $69,999",
+        "8": "$70,000 - $79,999",
+        "9": "$80,000 - $89,999",
+        "10": "$90,000 - $99,999",
+        "11": "$100,000 or More",
+        "666": "Variable Did Not Exist",
+        "777": "Refused",
+        "888": "Not Applicable: Not currently competitively employed",
+        "999": "Unknown"
+    },
+    "EduYearsF": {
+        "1": "1 Year or Less",
+        "2": "2 Years",
+        "3": "3 Years",
+        "4": "4 Years",
+        "5": "5 Years",
+        "6": "6 Years",
+        "7": "7 Years",
+        "8": "8 Years",
+        "9": "9 Years",
+        "10": "10 Years",
+        "11": "11 or 12 years: No diploma",
+        "12": "HS Diploma",
+        "13": "Work Toward Associate's",
+        "14": "Associate's Degree",
+        "15": "Work Toward Bachelor's",
+        "16": "Bachelor's Degree",
+        "17": "Work Toward Master's",
+        "18": "Master's Degree",
+        "19": "Work Toward Doctoral Level",
+        "20": "Doctoral Level Degree",
+        "21": "Other",
+        "666": "Variable Did Not Exist",
+        "999": "Unknown"
+    },
+    "EmotProbF": {
+        "1": "Excellent",
+        "2": "Very Good",
+        "3": "Good",
+        "4": "Fair",
+        "5": "Poor",
+        "66": "Variable Did Not Exist",
+        "82": "Not Applicable - No data From Person With TBI",
+        "99": "Unknown"
+    },
+    "Emp1F": {
+        "2": "Full Time Student",
+        "3": "Part Time Student",
+        "4": "Special Education / Other Non-Regular Education",
+        "5": "Competitively Employed",
+        "7": "Taking Care of House or Family",
+        "8": "Special Employed",
+        "9": "Retired: Age-related",
+        "10": "Unemployed: Looking",
+        "11": "Volunteer Work",
+        "12": "Retired: Disability",
+        "13": "Unemployed: Not Looking",
+        "14": "Hospitalized Without Pay",
+        "15": "Retired: Other",
+        "16": "On Leave from Work: Not receiving pay",
+        "17": "Medical leave with pay or Workers Comp",
+        "55": "Other",
+        "666": "Variable Did Not Exist",
+        "777": "Refused",
+        "999": "Unknown"
+    },
+    "EmpaF": {
+        "2": "Full Time Student",
+        "3": "Part Time Student",
+        "4": "Special Education or Other Non-Regular Education",
+        "5": "Competitively Employed",
+        "7": "Homemaker",
+        "8": "Special Employed",
+        "9": "Retired",
+        "10": "Unemployed",
+        "11": "Volunteer Work",
+        "12": "Other",
+        "13": "No Additional Codes",
+        "999": "Unknown"
+    },
+    "EmphysemaF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "EmphysemaTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "FIMBathF": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMBedTransF": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMBladAccF": {
+        "1": "Five or More Accidents in the Past 7 Days",
+        "2": "Four Accidents in the Past 7 Days",
+        "3": "Three Accidents in the Past 7 Days",
+        "4": "Two Accidents in the Past 7 Days",
+        "5": "One Accident in the Past 7 Days",
+        "6": "No Accidents: Uses device",
+        "7": "No Accidents",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMBladAsstF": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMBladMgtF": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMBwlAccF": {
+        "1": "Five or More Accidents in the Past 7 Days",
+        "2": "Four Accidents in the Past 7 Days",
+        "3": "Three Accidents in the Past 7 Days",
+        "4": "Two Accidents in the Past 7 Days",
+        "5": "One Accident in the Past 7 Days",
+        "6": "No Accidents: Uses device",
+        "7": "No Accidents",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMBwlAsstF": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMBwlMgtF": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMCOGF": {
+        "999": "Unknown"
+    },
+    "FIMCompF": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMDrsdwnF": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMDrupF": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMExpressF": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMFeedF": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMGroomF": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMLocoF": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMLocoModeF": {
+        "w": "Walk",
+        "c": "Wheelchair",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMMOTF": {
+        "999": "Unknown"
+    },
+    "FIMMemF": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMProbSlvF": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMSocialF": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMStairsF": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMTOTF": {
+        "9999": "Unknown"
+    },
+    "FIMToilTransF": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMToiletF": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FIMTubTransF": {
+        "1": "Total Assist",
+        "2": "Maximal Assist",
+        "3": "Moderate Assist",
+        "4": "Minimal Assist",
+        "5": "Supervision",
+        "6": "Modified Independence",
+        "7": "Complete Independence",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "FluencyCorrect15_30F": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown"
+    },
+    "FluencyCorrect1_15F": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown"
+    },
+    "FluencyCorrect30_45F": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown"
+    },
+    "FluencyCorrect45_60F": {
+        "6666": "Variable Did Not Exist"
+    },
+    "FluencyCorrectF": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown"
+    },
+    "FluencyIntF": {
+        "88": "Not Applicable"
+    },
+    "FluencyRepF": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown"
+    },
+    "FluencyTCCF": {
+        "1": "Test Administered in full- results valid",
+        "2": "Test Attempted BUT Not Completed (Due to Cognitive/Neurological Reasons)",
+        "3": "Test Attempted BUT Not Completed (Due to non-neurological Physical reasons)",
+        "4": "Test Attempted BUT Not Completed (Refusal to continue)",
+        "5": "Test Attempted BUT Not Completed (Non-English Speaking Patient)",
+        "6": "Test Attempted BUT Not Completed (Logistical Reasons, Other Reasons -- site-specific)",
+        "7": "Test Not Attempted (Due to the severity of Cognitive/Neurological deficits)",
+        "8": "Test Not Attempted (Due to non-neurologic/ Physical reasons)",
+        "9": "Test Not Attempted (Refusal)",
+        "10": "Test Not Attempted (Non-English Speaking Patient)",
+        "11": "Test Not Attempted (Logistical Reasons, Other Reasons \u2013 site-specific)",
+        "13": "Test Not Attempted (Not Admitted To Rehab Within Window At Form I)",
+        "14": "Suspect That a Participant is Writing Down Answers",
+        "16": "Other",
+        "666": "Variable Did Not Exist",
+        "888": "Not Applicable, No Data From Person with TBI"
+    },
+    "FollowUpPeriod": {
+        "1": "Year 1",
+        "2": "Year 2",
+        "5": "Year 5",
+        "10": "Year 10",
+        "15": "Year 15",
+        "20": "Year 20",
+        "25": "Year 25",
+        "30": "Year 30",
+        "35": "Year 35"
+    },
+    "GAD7TOTF": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Applicable: No data from person with TBI",
+        "999": "Unknown"
+    },
+    "GADAfraidF": {
+        "0": "Not at All",
+        "1": "Several Days",
+        "2": "More Than Half of the Days",
+        "3": "Nearly Every Day",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "GADAnnoyF": {
+        "0": "Not at All",
+        "1": "Several Days",
+        "2": "More Than Half of the Days",
+        "3": "Nearly Every Day",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "GADCntrlWryF": {
+        "0": "Not at All",
+        "1": "Several Days",
+        "2": "More Than Half of the Days",
+        "3": "Nearly Every Day",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "GADDifficultF": {
+        "0": "Not Difficult at All",
+        "1": "Somewhat Difficult",
+        "2": "Very Difficult",
+        "3": "Extremely Difficult",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable: No problems",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "GADNervousF": {
+        "0": "Not at All",
+        "1": "Several Days",
+        "2": "More Than Half of the Days",
+        "3": "Nearly Every Day",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "GADRelaxF": {
+        "0": "Not at All",
+        "1": "Several Days",
+        "2": "More Than Half of the Days",
+        "3": "Nearly Every Day",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "GADRestlessF": {
+        "0": "Not at All",
+        "1": "Several Days",
+        "2": "More Than Half of the Days",
+        "3": "Nearly Every Day",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "GADWorryF": {
+        "0": "Not at All",
+        "1": "Several Days",
+        "2": "More Than Half of the Days",
+        "3": "Nearly Every Day",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "GEDF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable: HS diploma or attended college",
+        "99": "Unknown"
+    },
+    "GOSAssistAllF": {
+        "0": "No (3a)",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "GOSAssistPriorF": {
+        "0": "No (Stop!)",
+        "1": "Yes (Go to item 3a)",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "GOSCommandsF": {
+        "0": "No (Stop! VS)",
+        "1": "Yes (2a)",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "GOSDisruptExF": {
+        "1": "Occasionally: Less than weekly (LGR)",
+        "2": "Frequent: Once per week or more but tolerable (UMD)",
+        "3": "Constant: Daily and intolerable (LMD)",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "GOSDisruptF": {
+        "0": "No (8a)",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "GOSEF": {
+        "1": "Dead",
+        "2": "Vegetative State (VS)",
+        "3": "Lower Severe Disability (LSD)",
+        "4": "Upper Severe Disability (USD)",
+        "5": "Lower Moderate Disability (LMD)",
+        "6": "Upper Moderate Disability (UMD)",
+        "7": "Lower Good Recovery (LGR)",
+        "8": "Upper Good Recovery (UGR)",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "GOSFactorF": {
+        "1": "Effects of Head Injury",
+        "2": "Effects of Illness or Injury to Another Part of the Body",
+        "3": "A Mixture of These",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable",
+        "99": "Unknown"
+    },
+    "GOSFrqHlpF": {
+        "0": "No (USD)",
+        "1": "Yes (LSD)",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "GOSPrbCurrentF": {
+        "0": "No (Stop! UGR)",
+        "1": "Yes (8b)",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "GOSPrbFamF": {
+        "0": "No (Stop!)",
+        "1": "Yes (8a)",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "GOSPrbPriorF": {
+        "0": "No (Stop! LGR)",
+        "1": "Yes (Stop! UGR)",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "GOSRestrictF": {
+        "1": "Reduced Work Capacity (UMD)",
+        "2": "Sheltered Workshop or Non-Competitive Job or Currently Unable to Work (LMD)",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "GOSShopF": {
+        "0": "No (USD)",
+        "1": "Yes (4a)",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "GOSShopPriorF": {
+        "0": "No (4a)",
+        "1": "Yes (Stop!)",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "GOSSocF": {
+        "0": "No",
+        "1": "Yes (7a)",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "GOSSocPriorF": {
+        "0": "No (7a)",
+        "1": "Yes (Stop!)",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "GOSSocRestrictF": {
+        "1": "Participate a Bit Less : At least half as often as before injury (LGR)",
+        "2": "Participate Much Less: Less than half as often (UMD)",
+        "3": "Unable to Participate: Rarely, if ever, take part (LMD)",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "GOSTotalF": {
+        "1": "Dead",
+        "2": "Vegetative State (VS)",
+        "3": "Lower Severe Disability (LSD)",
+        "4": "Upper Severe Disability (USD)",
+        "5": "Lower Moderate Disability (LMD)",
+        "6": "Upper Moderate Disability (UMD)",
+        "7": "Lower Good Recovery (LGR)",
+        "8": "Upper Good Recovery (UGR)",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "GOSTravelF": {
+        "0": "No (USD)",
+        "1": "Yes (5a)",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "GOSTravelPriorF": {
+        "0": "No (5a)",
+        "1": "Yes (Stop!)",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "GOSWorkF": {
+        "0": "No ",
+        "1": "Yes (6a)",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "GOSWorkPriorF": {
+        "0": "No (6a)",
+        "1": "Yes (Stop!)",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "GenHlthF": {
+        "1": "Excellent",
+        "2": "Very Good",
+        "3": "Good",
+        "4": "Fair",
+        "5": "Poor",
+        "66": "Variable Did Not Exist",
+        "82": "Not Applicable - No data From Person With TBI",
+        "99": "Unknown"
+    },
+    "HHIncomeF": {
+        "1": "Less than $25,000",
+        "2": "$25,000 - $49,999",
+        "3": "$50,000 - $99,999",
+        "4": "$100,000 - $149,999",
+        "5": "$150,000 - $199,999",
+        "6": "$200,000 or More",
+        "77": "Refused",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "HeartAttackF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "HeartAttackTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "HeightF": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Applicable (Any Arm Or Leg Amputation)",
+        "999": "Unknown"
+    },
+    "HighBloodCholesterolF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "HighBloodCholesterolTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "HypertensionF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "HypertensionTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "IntStatus": {
+        "1": "Followed",
+        "2": "Lost",
+        "3": "Refused",
+        "4": "Incarcerated",
+        "5": "Withdrew",
+        "6": "Expired",
+        "7": "No Funding",
+        "87": "Future FollowUpPeriod"
+    },
+    "LengthInterviewF": {
+        "8881": "NA- Data Collected Online",
+        "8882": "NA- Data Collected by Mail-Out",
+        "9999": "Unknown"
+    },
+    "LivWhoF": {
+        "1": "Alone",
+        "2": "Spouse or significant other",
+        "3": "Other family",
+        "4": "Someone else",
+        "99": "Unknown"
+    },
+    "LiverDiseaseF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "LiverDiseaseTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "LostReasonF": {
+        "1": "No Known Valid Contact Information",
+        "2": "Valid Contact Information, No Response To Contact (Passive Refusal)",
+        "3": "Valid Contact Information, Participant Not Physically or Cognitively Available, No Valid SO",
+        "4": "Language Barrier",
+        "5": "Out of Country",
+        "81": "Not Applicable",
+        "82": "Not Applicable, Expired",
+        "83": "Not Applicable (Funding Not Available)",
+        "88": "Not Applicable (Data Was Provided)",
+        "99": "Unknown"
+    },
+    "MJPrescribeF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not applicable",
+        "99": "Unknown"
+    },
+    "MJUseF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not applicable",
+        "99": "Unknown"
+    },
+    "MarF": {
+        "1": "Single (Never Married)",
+        "2": "Married",
+        "3": "Divorced",
+        "4": "Separated",
+        "5": "Widowed",
+        "7": "Other",
+        "99": "Unknown"
+    },
+    "MovementDisorderF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "MovementDisorderTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "OCCF": {
+        "1": "Executive, Administrative, and Managerial",
+        "2": "Professional Specialty",
+        "3": "Technicians and Related Support",
+        "4": "Sales",
+        "5": "Administrative Support",
+        "6": "Private Household",
+        "7": "Protective Service",
+        "8": "Service, except Protective and Household",
+        "9": "Farming, Forestry, and Fishing",
+        "10": "Precision Production, Craft, and Repair",
+        "11": "Machine Operators, Assemblers, and Inspectors",
+        "12": "Transportation and Material Moving",
+        "13": "Handlers, Equipment Cleaners, Helpers, and Laborers  ",
+        "14": "Military Occupations",
+        "777": "Refused",
+        "888": "Not Applicable",
+        "999": "Unknown"
+    },
+    "OCDF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "OCDTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "OsteoarthritisF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "OsteoarthritisTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "OtherHeartConditionsF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "OtherHeartConditionsTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "PARTSummaryF": {
+        "999": "Unknown"
+    },
+    "PHQ9TOTF": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Applicable: No data from person with TBI",
+        "999": "Unknown"
+    },
+    "PHQBadF": {
+        "0": "Not at All",
+        "1": "Several Days",
+        "2": "More Than Half of the Days",
+        "3": "Nearly Every Day",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "PHQConcentrateF": {
+        "0": "Not at All",
+        "1": "Several Days",
+        "2": "More Than Half of the Days",
+        "3": "Nearly Every Day",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "PHQDeadF": {
+        "0": "Not at All",
+        "1": "Several Days",
+        "2": "More Than Half of the Days",
+        "3": "Nearly Every Day",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "PHQDifficultF": {
+        "0": "Not Difficult at All",
+        "1": "Somewhat Difficult",
+        "2": "Very Difficult",
+        "3": "Extremely Difficult",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable: No problems",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "PHQDownF": {
+        "0": "Not at All",
+        "1": "Several Days",
+        "2": "More Than Half of the Days",
+        "3": "Nearly Every Day",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "PHQEatF": {
+        "0": "Not at All",
+        "1": "Several Days",
+        "2": "More Than Half of the Days",
+        "3": "Nearly Every Day",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "PHQPleasureF": {
+        "0": "Not at All",
+        "1": "Several Days",
+        "2": "More Than Half of the Days",
+        "3": "Nearly Every Day",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "PHQSleepF": {
+        "0": "Not at All",
+        "1": "Several Days",
+        "2": "More Than Half of the Days",
+        "3": "Nearly Every Day",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "PHQSlowF": {
+        "0": "Not at All",
+        "1": "Several Days",
+        "2": "More Than Half of the Days",
+        "3": "Nearly Every Day",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "PHQTiredF": {
+        "0": "Not at All",
+        "1": "Several Days",
+        "2": "More Than Half of the Days",
+        "3": "Nearly Every Day",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "PROBLEMUseF": {
+        "77": "Refused"
+    },
+    "PRTEatOutF": {
+        "0": NaN,
+        "1": "1 - 4 Times",
+        "2": "5 - 9 Times",
+        "3": "10 - 19 Times",
+        "4": "20 - 34 Times",
+        "5": "35 or More Times",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown"
+    },
+    "PRTEmotSupF": {
+        "0": NaN,
+        "1": "1 - 4 Times",
+        "2": "5 - 9 Times",
+        "3": "10 - 19 Times",
+        "4": "20 - 34 Times",
+        "5": "35 or More Times",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown"
+    },
+    "PRTFriendF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown"
+    },
+    "PRTHomeF": {
+        "0": NaN,
+        "1": "1 - 4 Hours",
+        "2": "5 - 9 Hours",
+        "3": "10 - 19 Hours",
+        "4": "20 - 34 Hours",
+        "5": "35 or More Hours",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown"
+    },
+    "PRTInternetF": {
+        "0": NaN,
+        "1": "1 - 4 Times",
+        "2": "5 - 9 Times",
+        "3": "10 - 19 Times",
+        "4": "20 - 34 Times",
+        "5": "35 or More Times",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown"
+    },
+    "PRTMovieF": {
+        "0": NaN,
+        "1": "One Time",
+        "2": "Two Times",
+        "3": "Three Times",
+        "4": "Four Times",
+        "5": "Five or More Times",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown"
+    },
+    "PRTOutHseF": {
+        "0": NaN,
+        "1": "1 - 2 Days",
+        "2": "3 - 4 Days",
+        "3": "5 - 6 Days",
+        "4": "7 Days",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown"
+    },
+    "PRTPlaySportF": {
+        "0": NaN,
+        "1": "1 - 4 Times",
+        "2": "5 - 9 Times",
+        "3": "10 - 19 Times",
+        "4": "20 - 34 Times",
+        "5": "35 or More Times",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown"
+    },
+    "PRTRelationF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown"
+    },
+    "PRTReligionF": {
+        "0": NaN,
+        "1": "One Time",
+        "2": "Two Times",
+        "3": "Three Times",
+        "4": "Four Times",
+        "5": "Five or More Times",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown"
+    },
+    "PRTSchoolF": {
+        "0": NaN,
+        "1": "1 - 4 Hours",
+        "2": "5 - 9 Hours",
+        "3": "10 - 19 Hours",
+        "4": "20 - 34 Hours",
+        "5": "35 or More Hours",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown"
+    },
+    "PRTShopF": {
+        "0": NaN,
+        "1": "1 - 4 Times",
+        "2": "5 - 9 Times",
+        "3": "10 - 19 Times",
+        "4": "20 - 34 Times",
+        "5": "35 or More Times",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown"
+    },
+    "PRTSocFamF": {
+        "0": NaN,
+        "1": "1 - 4 Times",
+        "2": "5 - 9 Times",
+        "3": "10 - 19 Times",
+        "4": "20 - 34 Times",
+        "5": "35 or More Times",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown"
+    },
+    "PRTSocFrndF": {
+        "0": NaN,
+        "1": "1 - 4 Times",
+        "2": "5 - 9 Times",
+        "3": "10 - 19 Times",
+        "4": "20 - 34 Times",
+        "5": "35 or More Times",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown"
+    },
+    "PRTSpouseF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown"
+    },
+    "PRTVolF": {
+        "0": NaN,
+        "1": "One Time",
+        "2": "Two Times",
+        "3": "Three Times",
+        "4": "Four Times",
+        "5": "Five or More Times",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown"
+    },
+    "PRTWorkF": {
+        "0": NaN,
+        "1": "1 - 4 Hours",
+        "2": "5 - 9 Hours",
+        "3": "10 - 19 Hours",
+        "4": "20 - 34 Hours",
+        "5": "35 or More Hours",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown"
+    },
+    "PRTWtchSportF": {
+        "0": NaN,
+        "1": "One Time",
+        "2": "Two Times",
+        "3": "Three Times",
+        "4": "Four Times",
+        "5": "Five or More Times",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown"
+    },
+    "PTSDHlthF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "PTSDTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "PanicAttacksF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "PanicAttacksTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "PastYearSeizF": {
+        "1": "up to three seizures",
+        "2": "4-12 seizures",
+        "3": "at least one seizure monthly",
+        "4": "at least one seizure weekly",
+        "5": "at least one seizure daily",
+        "66": "Variable did not exist",
+        "88": "Not applicable: No seizures",
+        "99": "Unknown"
+    },
+    "PhysHlthF": {
+        "1": "Excellent",
+        "2": "Very Good",
+        "3": "Good",
+        "4": "Fair",
+        "5": "Poor",
+        "66": "Variable Did Not Exist",
+        "82": "Not Applicable - No data From Person With TBI",
+        "99": "Unknown"
+    },
+    "PneumoniaF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "PneumoniaTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "REHOSPF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown",
+        "88": "Not Applicable"
+    },
+    "Reason01F": {
+        "0": "Incorrect",
+        "1": "Correct",
+        "66": "Variable Did Not Exist",
+        "88": "Not Tested"
+    },
+    "Reason02F": {
+        "0": "Incorrect",
+        "1": "Correct",
+        "66": "Variable Did Not Exist",
+        "88": "Not Tested"
+    },
+    "Reason03F": {
+        "0": "Incorrect",
+        "1": "Correct",
+        "66": "Variable Did Not Exist",
+        "88": "Not Tested"
+    },
+    "Reason04F": {
+        "0": "Incorrect",
+        "1": "Correct",
+        "66": "Variable Did Not Exist",
+        "88": "Not Tested"
+    },
+    "Reason05F": {
+        "0": "Incorrect",
+        "1": "Correct",
+        "66": "Variable Did Not Exist",
+        "88": "Not Tested"
+    },
+    "ReasonCorrectF": {
+        "66": "Variable Did Not Exist",
+        "88": "Not Tested",
+        "99": "Unknown"
+    },
+    "ReasonNoDataIndF": {
+        "3": "Physically Or Cognitively Unable",
+        "4": "Not Available",
+        "5": "Stated Refusal",
+        "6": "No Response To Contact",
+        "8": "Language Barrier",
+        "9": "Expired",
+        "81": "Not Applicable (Funding Not Available)",
+        "82": "Not Applicable (Data Was Provided)",
+        "99": "Unknown"
+    },
+    "ReasonTCCF": {
+        "1": "Test Administered in full- results valid",
+        "2": "Test Attempted BUT Not Completed (Due to Cognitive/Neurological Reasons)",
+        "3": "Test Attempted BUT Not Completed (Due to non-neurological Physical reasons)",
+        "4": "Test Attempted BUT Not Completed (Refusal to continue)",
+        "5": "Test Attempted BUT Not Completed (Non-English Speaking Patient)",
+        "6": "Test Attempted BUT Not Completed (Logistical Reasons, Other Reasons -- site-specific)",
+        "7": "Test Not Attempted (Due to the severity of Cognitive/Neurological deficits)",
+        "8": "Test Not Attempted (Due to non-neurologic/ Physical reasons)",
+        "9": "Test Not Attempted (Refusal)",
+        "10": "Test Not Attempted (Non-English Speaking Patient)",
+        "11": "Test Not Attempted (Logistical Reasons, Other Reasons \u2013 site-specific)",
+        "13": "Test Not Attempted (Not Admitted To Rehab Within Window At Form I)",
+        "14": "Suspect That a Participant is Writing Down Answers",
+        "16": "Other",
+        "666": "Variable Did Not Exist",
+        "888": "Not Applicable, No Data From Person with TBI"
+    },
+    "Rehosp1F": {
+        "0": "Rehabilitation",
+        "1": "Seizures",
+        "2": "Neurologic Disorder: Non-seizure",
+        "3": "Psychiatric",
+        "4": "Infectious",
+        "5": "Orthopedic",
+        "6": "General Health Maintenance or OB/Gyn",
+        "7": "Other: Not specified elsewhere",
+        "88": "Not Applicable: No rehospitalizations / no further rehospitalizations",
+        "9": "Rehospitalized: Reason unknown",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "Rehosp1lv2F": {
+        "666.00": "Variable did not exist",
+        "888.00": NaN,
+        "991.00": "Participant Hospitalized, Reason Unknown",
+        "992.00": "Unknown whether participant was hospitalized"
+    },
+    "Rehosp2lv2F": {
+        "666.00": "Variable did not exist",
+        "888.00": NaN,
+        "991.00": "Participant Hospitalized, Reason Unknown",
+        "992.00": "Unknown whether participant was hospitalized"
+    },
+    "Rehosp3lv2F": {
+        "666.00": "Variable did not exist",
+        "888.00": NaN,
+        "991.00": "Participant Hospitalized, Reason Unknown",
+        "992.00": "Unknown whether participant was hospitalized"
+    },
+    "Rehosp4lv2F": {
+        "666.00": "Variable did not exist",
+        "888.00": NaN,
+        "991.00": "Participant Hospitalized, Reason Unknown",
+        "992.00": "Unknown whether participant was hospitalized"
+    },
+    "Rehosp5lv2F": {
+        "666.00": "Variable did not exist",
+        "888.00": NaN,
+        "991.00": "Participant Hospitalized, Reason Unknown",
+        "992.00": "Unknown whether participant was hospitalized"
+    },
+    "ResF": {
+        "1": "Private Residence",
+        "2": "Nursing Home/Subacute Care",
+        "3": "Adult Home",
+        "4": "Correctional Institution",
+        "5": "Hotel/Motel",
+        "6": "Homeless",
+        "7": "Hospital: Acute care",
+        "8": "Hospital: Rehabilitation",
+        "9": "Hospital: Other",
+        "10": "Other",
+        "999": "Unknown"
+    },
+    "RheumatoidArthritisF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "RheumatoidArthritisTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "RuralF": {
+        "1": "Rural",
+        "2": "Urban",
+        "3": "Suburban"
+    },
+    "SRScal2F": {
+        "666": "Variable Did Not Exist",
+        "999": "Unknown"
+    },
+    "SRScalF": {
+        "1": "Independent",
+        "2": "Overnight or Part Time Supervision",
+        "3": "Full Time Indirect or Direct Supervision",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "SWLSCondF": {
+        "1": "Strongly Disagree",
+        "2": "Disagree",
+        "3": "Slightly Disagree",
+        "4": "Neither Agree nor Disagree",
+        "5": "Slightly Agree",
+        "6": "Agree",
+        "7": "Strongly Agree",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable: Variable not due this year",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "SWLSIdealF": {
+        "1": "Strongly Disagree",
+        "2": "Disagree",
+        "3": "Slightly Disagree",
+        "4": "Neither Agree nor Disagree",
+        "5": "Slightly Agree",
+        "6": "Agree",
+        "7": "Strongly Agree",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable: Variable not due this year",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "SWLSImprtF": {
+        "1": "Strongly Disagree",
+        "2": "Disagree",
+        "3": "Slightly Disagree",
+        "4": "Neither Agree nor Disagree",
+        "5": "Slightly Agree",
+        "6": "Agree",
+        "7": "Strongly Agree",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable: Variable not due this year",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "SWLSLiveOverF": {
+        "1": "Strongly Disagree",
+        "2": "Disagree",
+        "3": "Slightly Disagree",
+        "4": "Neither Agree nor Disagree",
+        "5": "Slightly Agree",
+        "6": "Agree",
+        "7": "Strongly Agree",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable: Variable not due this year",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "SWLSSAtF": {
+        "1": "Strongly Disagree",
+        "2": "Disagree",
+        "3": "Slightly Disagree",
+        "4": "Neither Agree nor Disagree",
+        "5": "Slightly Agree",
+        "6": "Agree",
+        "7": "Strongly Agree",
+        "66": "Variable Did Not Exist",
+        "81": "Not Applicable: Variable not due this year",
+        "82": "Not Applicable: No data from person with TBI",
+        "99": "Unknown"
+    },
+    "SWLSTOTF": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Applicable: No data from person with TBI",
+        "999": "Unknown"
+    },
+    "SchoolF": {
+        "9": "Unknown"
+    },
+    "SleepDisorderF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "SleepDisorderTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "SmkCigF": {
+        "1": "Not At All",
+        "2": "Some Days",
+        "3": "Everyday",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown"
+    },
+    "StrokeF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "StrokeTBIOnsetF": {
+        "1": "Before TBI",
+        "2": "Same Time As TBI",
+        "3": "After TBI",
+        "66": "Variable Did Not Exist",
+        "88": NaN,
+        "99": "Unknown"
+    },
+    "SuicideF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not Applicable: Variable not due this year",
+        "99": "Unknown"
+    },
+    "TBIInjuryF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "99": "Unknown"
+    },
+    "TBIRepInjuryF": {
+        "0": "No",
+        "1": "Yes",
+        "66": "Variable Did Not Exist",
+        "77": "Refused",
+        "88": "Not Applicable",
+        "99": "Unknown"
+    },
+    "TransModeF": {
+        "1": "Drives Vehicle",
+        "2": "Rides with Someone Else",
+        "3": "Public Transit",
+        "4": "Special Bus or Van Service",
+        "81": "Not Applicable: Variable not due this year",
+        "82": "Not Applicable: No motorized transportation",
+        "99": "Unknown"
+    },
+    "WeightF": {
+        "6666": "Variable Did Not Exist",
+        "8888": "Not Applicable (Any Arm Or Leg Amputation)",
+        "9999": "Unknown"
+    },
+    "WordRecallCorrectF": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown"
+    },
+    "WordRecallIntF": {
+        "88": "Not Applicable"
+    },
+    "WordRecallMiddleF": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown"
+    },
+    "WordRecallPrimacyF": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown"
+    },
+    "WordRecallRecencyF": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown"
+    },
+    "WordRecallRepF": {
+        "666": "Variable Did Not Exist",
+        "888": "Not Tested",
+        "999": "Unknown"
+    },
+    "WordRecallTCCF": {
+        "1": "Test Administered in full- results valid",
+        "2": "Test Attempted BUT Not Completed (Due to Cognitive/Neurological Reasons)",
+        "3": "Test Attempted BUT Not Completed (Due to non-neurological Physical reasons)",
+        "4": "Test Attempted BUT Not Completed (Refusal to continue)",
+        "5": "Test Attempted BUT Not Completed (Non-English Speaking Patient)",
+        "6": "Test Attempted BUT Not Completed (Logistical Reasons, Other Reasons -- site-specific)",
+        "7": "Test Not Attempted (Due to the severity of Cognitive/Neurological deficits)",
+        "8": "Test Not Attempted (Due to non-neurologic/ Physical reasons)",
+        "9": "Test Not Attempted (Refusal)",
+        "10": "Test Not Attempted (Non-English Speaking Patient)",
+        "11": "Test Not Attempted (Logistical Reasons, Other Reasons \u2013 site-specific)",
+        "13": "Test Not Attempted (Not Admitted to Rehab Within Window At Form I)",
+        "14": "Suspect That a Participant is Writing Down Answers",
+        "16": "Other",
+        "666": "Variable Did Not Exist",
+        "888": "Not Applicable, No Data From Person with TBI"
+    },
+    "drs2_1F": {
+        "1": "No - Skip to 2.4",
+        "2": "Inconsistently",
+        "3": "Consistently",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs2_2F": {
+        "1": "Speech",
+        "2": "Writing Or Spelling Device",
+        "3": "Gestures Or Signals",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable",
+        "99": "Unknown"
+    },
+    "drs2_3F": {
+        "1": "No - Skip to 3.0",
+        "2": "Sometimes - Skip to 3.0",
+        "3": "Yes But Takes More Than A Few Seconds - Skip to 3.0",
+        "4": "Yes - Skip to 4.0",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable",
+        "99": "Unknown"
+    },
+    "drs2_4F": {
+        "1": "No",
+        "2": "Yes - Skip to 4.0",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable",
+        "99": "Unknown"
+    },
+    "drs2_5F": {
+        "1": "No - Skip to 4.0",
+        "2": "Yes - Skip to 4.0",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable",
+        "99": "Unknown"
+    },
+    "drs3_1F": {
+        "1": "No",
+        "2": "Inconsistently",
+        "3": "Yes",
+        "66": "VariableDid Not Exist",
+        "99": "Unknown"
+    },
+    "drs3_2F": {
+        "1": "Localization",
+        "2": "Withdrawal",
+        "3": "Flexion",
+        "4": "Extension",
+        "5": "No Response",
+        "66": "VariableDid Not Exist",
+        "88": "Not Applicable",
+        "99": "Unknown"
+    },
+    "drs4_1F": {
+        "1": "No",
+        "2": "Yes - Mark 4 = Always in 4.2. and 4.3., then skip to 5.0.",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs4_2F": {
+        "1": "Never",
+        "2": "Some Of The Time",
+        "3": "Most Of The Time",
+        "4": "Always",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs4_3F": {
+        "1": "Never",
+        "2": "Some Of The Time",
+        "3": "Most Of The Time",
+        "4": "Always",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs5_1F": {
+        "1": "No",
+        "2": "Yes - Mark 4 = Always in 5.2. and 5.3., then skip to 6.0",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs5_2F": {
+        "1": "Never",
+        "2": "Some Of The Time",
+        "3": "Most Of The Time",
+        "4": "Always",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs5_3F": {
+        "1": "Never",
+        "2": "Some Of The Time",
+        "3": "Most Of The Time",
+        "4": "Always",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs6_1F": {
+        "1": "No",
+        "2": "Yes - Mark 4 = Always in 6.2. and 6.3., then skip to 7.0",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs6_2F": {
+        "1": "Never",
+        "2": "Some Of The Time",
+        "3": "Most Of The Time",
+        "4": "Always",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs6_3F": {
+        "1": "Never",
+        "2": "Some Of The Time",
+        "3": "Most Of The Time",
+        "4": "Always",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs6_4F": {
+        "1": "Never",
+        "2": "Some Of The Time",
+        "3": "Most Of The Time",
+        "4": "Always",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs7_1F": {
+        "1": "No",
+        "2": "Yes",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs7_2F": {
+        "1": "No",
+        "2": "Yes",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs7_3F": {
+        "1": "Never",
+        "2": "Some Of The Time",
+        "3": "Most Of The Time",
+        "4": "Always",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs7_4F": {
+        "1": "Never",
+        "2": "Some Of The Time",
+        "3": "Most Of The Time",
+        "4": "Always",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs7_5F": {
+        "1": "Never",
+        "2": "Some Of The Time",
+        "3": "Most Of The Time",
+        "4": "Always",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs7_6aF": {
+        "1": "No",
+        "2": "Yes",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs7_6bF": {
+        "1": "No",
+        "2": "Yes",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs7_6cF": {
+        "1": "No",
+        "2": "Yes",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs8_1F": {
+        "1": "Never",
+        "2": "Some Of The Time",
+        "3": "Most Of The Time",
+        "4": "Always",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs8_2F": {
+        "1": "Never",
+        "2": "Some Of The Time",
+        "3": "Most Of The Time",
+        "4": "Always",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs8_3F": {
+        "1": "Never",
+        "2": "Some Of The Time",
+        "3": "Most Of The Time",
+        "4": "Always",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs8_4F": {
+        "1": "Certain Or Very Certain I Cannot",
+        "2": "Uncertain",
+        "3": "Certain Or Very Certain I Can - END",
+        "66": "Variable Did Not Exist",
+        "99": "Unknown"
+    },
+    "drs8_5F": {
+        "1": "Certain Or Very Certain I Cannot",
+        "2": "Uncertain",
+        "3": "Certain Or Very Certain I Can - END",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable",
+        "99": "Unknown"
+    },
+    "drs8_6F": {
+        "1": "Certain Or Very Certain I Cannot",
+        "2": "Uncertain",
+        "3": "Certain Or Very Certain I Can - END",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable",
+        "99": "Unknown"
+    },
+    "drs8_7F": {
+        "1": "Certain Or Very Certain I Cannot - END",
+        "2": "Uncertain - END",
+        "3": "Certain Or Very Certain I Can - END",
+        "66": "Variable Did Not Exist",
+        "88": "Not Applicable - END",
+        "99": "Unknown"
+    },
+    "record_columns": [
+        "Mod1Id",
+        "Mod2Id"
+    ],
+    "BMIF": {
+        "666": "Variable Did Not Exist",
+        "999": "Unknown"
+    },
+    "CombinedDRSF": {
+        "999": "Partial"
+    },
+    "SWLSTOT4F": {
+        "888": "Not Applicable",
+        "999": "Unknown"
+    },
+    "cont_cols": [
+        "AGENoPHIF",
+        "ALC4DrinksF",
+        "ALC5DrinksF",
+        "ALCDrinksF",
+        "ALCMonthF",
+        "B3TCOMPF",
+        "B3TEFF",
+        "B3TEMF",
+        "BMIF",
+        "BackCountDigitsF",
+        "BackCountDigitsF_i_n",
+        "BackCountErrorsF",
+        "BackCountLastNumF",
+        "BackCountTimeF",
+        "BackDigitCorrectF",
+        "BackDigitCorrectF_i_n",
+        "CombinedDRSF",
+        "DAYSTo1stEmpF",
+        "DAYStoDEATHF",
+        "DAYStoFUF",
+        "DRSF",
+        "DRSHighF",
+        "DRSLowF",
+        "DRSToiletF",
+        "DRS_PIF",
+        "DRS_PI_ORIGF",
+        "DelayWordRecallCorrectF",
+        "DelayWordRecallCorrectF_i_n",
+        "DelayWordRecallIntF",
+        "DelayWordRecallMiddleF",
+        "DelayWordRecallPrimacyF",
+        "DelayWordRecallRecencyF",
+        "DelayWordRecallRepF",
+        "FIMCOGF",
+        "FIMMOTF",
+        "FIMTOTF",
+        "FUYearF",
+        "FluencyCorrect15_30F",
+        "FluencyCorrect1_15F",
+        "FluencyCorrect30_45F",
+        "FluencyCorrect45_60F",
+        "FluencyCorrectF",
+        "FluencyCorrectF_i_n",
+        "FluencyIntF",
+        "FluencyRepF",
+        "FollowUpPeriod",
+        "GAD7TOTF",
+        "HeightF",
+        "LengthInterviewF",
+        "PARTOutAboutF",
+        "PARTProductivityF",
+        "PARTSocialF",
+        "PARTSummaryF",
+        "PART_BalancedF",
+        "PART_Domain_OutF",
+        "PART_Domain_ProdF",
+        "PART_Domain_SocF",
+        "PART_RaschF",
+        "PART_SDF",
+        "PHQ9TOTF",
+        "PROBLEMUseF",
+        "ReasonCorrectF_i_n",
+        "SRScal2F",
+        "SWLSTOT4F",
+        "SWLSTOTF",
+        "WeightF",
+        "WordRecallCorrectF",
+        "WordRecallCorrectF_i_n",
+        "WordRecallIntF",
+        "WordRecallMiddleF",
+        "WordRecallPrimacyF",
+        "WordRecallRecencyF",
+        "WordRecallRepF"
+    ],
+    "cat_cols": [
+        "ALCAnyDrinkF",
+        "ALCWeekF",
+        "BMICatF",
+        "BTACTAdmF",
+        "BTACTLanguageF",
+        "BTACTTCCF",
+        "BackCountTCCF",
+        "BackDigitTCCF",
+        "CollectionFormatF",
+        "CollectionLanguageF",
+        "CollectionMethodPrimaryF",
+        "CollectionMethodSecondaryF",
+        "CollectionSourcePrimaryF",
+        "CollectionSourceSecondaryF",
+        "CollectiontranslationserviceF",
+        "CombinedDRSTypeF",
+        "CongestiveHeartFailureF",
+        "CongestiveHeartFailureTBIOnsetF",
+        "DRINKCatF",
+        "DRSEmpF",
+        "DRSEyeF",
+        "DRSFeedF",
+        "DRSFuncF",
+        "DRSGroomF",
+        "DRSMotF",
+        "DRSVerF",
+        "DRS_PIEmpF",
+        "DRS_PIEyeF",
+        "DRS_PIFeedF",
+        "DRS_PIFunctF",
+        "DRS_PIGroomF",
+        "DRS_PIMotF",
+        "DRS_PIToiletF",
+        "DRS_PIVerF",
+        "DeathCause1F",
+        "DeathCause2F",
+        "DeathECodeF",
+        "DelayWordRecallTCCF",
+        "DementiaF",
+        "DementiaTBIOnsetF",
+        "DiabetesHighBloodSugarF",
+        "DiabetesHighBloodSugarTBIOnsetF",
+        "DrugsF",
+        "EDUCATIONF",
+        "EMPLOYMENTF",
+        "EarnF",
+        "EduYearsF",
+        "Emp1F",
+        "EmpaF",
+        "FIMBathF",
+        "FIMBedTransF",
+        "FIMBladAccF",
+        "FIMBladAsstF",
+        "FIMBladMgtF",
+        "FIMBwlAccF",
+        "FIMBwlAsstF",
+        "FIMBwlMgtF",
+        "FIMCompF",
+        "FIMDrsdwnF",
+        "FIMDrupF",
+        "FIMExpressF",
+        "FIMFeedF",
+        "FIMGroomF",
+        "FIMLocoF",
+        "FIMLocoModeF",
+        "FIMMemF",
+        "FIMProbSlvF",
+        "FIMSocialF",
+        "FIMStairsF",
+        "FIMToilTransF",
+        "FIMToiletF",
+        "FIMTubTransF",
+        "FluencyTCCF",
+        "GADAfraidF",
+        "GADAnnoyF",
+        "GADCntrlWryF",
+        "GADDifficultF",
+        "GADNervousF",
+        "GADRelaxF",
+        "GADRestlessF",
+        "GADWorryF",
+        "GEDF",
+        "GOSAssistAllF",
+        "GOSAssistPriorF",
+        "GOSCommandsF",
+        "GOSDisruptExF",
+        "GOSDisruptF",
+        "GOSEF",
+        "GOSFactorF",
+        "GOSFrqHlpF",
+        "GOSPrbCurrentF",
+        "GOSPrbFamF",
+        "GOSPrbPriorF",
+        "GOSRestrictF",
+        "GOSShopF",
+        "GOSShopPriorF",
+        "GOSSocF",
+        "GOSSocPriorF",
+        "GOSSocRestrictF",
+        "GOSTotalF",
+        "GOSTravelF",
+        "GOSTravelPriorF",
+        "GOSWorkF",
+        "GOSWorkPriorF",
+        "GenHlthF",
+        "HHIncomeF",
+        "HeartAttackF",
+        "HeartAttackTBIOnsetF",
+        "HighBloodCholesterolF",
+        "HighBloodCholesterolTBIOnsetF",
+        "HypertensionF",
+        "HypertensionTBIOnsetF",
+        "IntStatus",
+        "LastValidFollowupYN",
+        "LivWhoF",
+        "LiverDiseaseF",
+        "LiverDiseaseTBIOnsetF",
+        "LostReasonF",
+        "MJPrescribeF",
+        "MJUseF",
+        "Malec_EatOutF",
+        "Malec_FriendF",
+        "Malec_MovieF",
+        "Malec_OutHseF",
+        "Malec_PlaySportF",
+        "Malec_ProdF",
+        "Malec_RelationF",
+        "Malec_ReligionF",
+        "Malec_ShopF",
+        "Malec_SocialF",
+        "Malec_SumF",
+        "Malec_WatchSportF",
+        "MarF",
+        "MovementDisorderF",
+        "MovementDisorderTBIOnsetF",
+        "OCCF",
+        "OsteoarthritisF",
+        "OsteoarthritisTBIOnsetF",
+        "PHQBadF",
+        "PHQConcentrateF",
+        "PHQDeadF",
+        "PHQDifficultF",
+        "PHQDownF",
+        "PHQEatF",
+        "PHQPleasureF",
+        "PHQSleepF",
+        "PHQSlowF",
+        "PHQTiredF",
+        "PRTEatOutF",
+        "PRTEmotSupF",
+        "PRTFriendF",
+        "PRTHomeF",
+        "PRTInternetF",
+        "PRTMovieF",
+        "PRTOutHseF",
+        "PRTPlaySportF",
+        "PRTRelationF",
+        "PRTReligionF",
+        "PRTSchoolF",
+        "PRTShopF",
+        "PRTSocFamF",
+        "PRTSocFrndF",
+        "PRTSpouseF",
+        "PRTVolF",
+        "PRTWorkF",
+        "PRTWtchSportF",
+        "PTSDHlthF",
+        "PTSDTBIOnsetF",
+        "PanicAttacksF",
+        "PanicAttacksTBIOnsetF",
+        "PastYearSeizF",
+        "REHOSPF",
+        "RURALF",
+        "Reason01F",
+        "Reason02F",
+        "Reason03F",
+        "Reason04F",
+        "Reason05F",
+        "ReasonCorrectF",
+        "ReasonNoDataIndF",
+        "ReasonTCCF",
+        "Rehosp1F",
+        "Rehosp1lv2F",
+        "Rehosp2lv2F",
+        "Rehosp3lv2F",
+        "Rehosp4lv2F",
+        "Rehosp5lv2F",
+        "ResF",
+        "RheumatoidArthritisF",
+        "RheumatoidArthritisTBIOnsetF",
+        "SRScalF",
+        "SWLSCondF",
+        "SWLSIdealF",
+        "SWLSImprtF",
+        "SWLSLiveOverF",
+        "SWLSSAtF",
+        "SchoolF",
+        "SmkCigF",
+        "StrokeF",
+        "StrokeTBIOnsetF",
+        "SuicideF",
+        "TBIInjuryF",
+        "TBIRepInjuryF",
+        "TransModeF",
+        "WordRecallTCCF",
+        "drs2_1F",
+        "drs2_2F",
+        "drs2_3F",
+        "drs2_4F",
+        "drs2_5F",
+        "drs3_1F",
+        "drs3_2F",
+        "drs4_1F",
+        "drs4_2F",
+        "drs4_3F",
+        "drs5_1F",
+        "drs5_2F",
+        "drs5_3F",
+        "drs6_1F",
+        "drs6_2F",
+        "drs6_3F",
+        "drs6_4F",
+        "drs7_1F",
+        "drs7_2F",
+        "drs7_3F",
+        "drs7_4F",
+        "drs7_5F",
+        "drs7_6aF",
+        "drs7_6bF",
+        "drs7_6cF",
+        "drs8_1F",
+        "drs8_2F",
+        "drs8_3F",
+        "drs8_4F",
+        "drs8_5F",
+        "drs8_6F",
+        "drs8_7F"
+    ]
+}
