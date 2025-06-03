@@ -2,3 +2,7 @@
 /Database/processed/form_1_cleaned.csv
 /Database/processed/form_2_cleaned.csv
 /.conda
+/notebooks/HDBSCAN_clustered_zipcodes.csv
+/notebooks/km_clustered_zipcodes.csv
+/.DS_Store
+
