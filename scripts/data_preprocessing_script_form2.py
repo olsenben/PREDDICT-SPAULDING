@@ -111,7 +111,7 @@ if __name__ == "__main__":
 
     #process
     print('Processing variables...')
-    df_cat = process_mixed_variables(df_raw[cat_cols], code_dict, replace_col=True, code_col=False, errors='ignore')
+    df_cat = process_mixed_variables(df_raw[cat_cols], code_dict['non_value_codes'], replace_col=True, code_col=False, errors='ignore')
     df_cont = process_mixed_variables(df_raw[cont_cols], code_dict, replace_col=True, code_col=False, errors='coerce')
     df_records = df_raw[record_cols].copy()
     
