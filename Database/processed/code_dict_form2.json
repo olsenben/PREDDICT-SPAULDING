@@ -2674,7 +2674,7 @@
         "FluencyCorrectF_i_n",
         "FluencyIntF",
         "FluencyRepF",
-        "FollowUpPeriod",
+        
         "GAD7TOTF",
         "HeightF",
         "LengthInterviewF",
@@ -2775,6 +2775,7 @@
         "FIMToiletF",
         "FIMTubTransF",
         "FluencyTCCF",
+        "FollowUpPeriod",
         "GADAfraidF",
         "GADAnnoyF",
         "GADCntrlWryF",
