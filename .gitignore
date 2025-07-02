@@ -5,4 +5,6 @@
 /notebooks/HDBSCAN_clustered_zipcodes.csv
 /notebooks/km_clustered_zipcodes.csv
 /.DS_Store
+/Database/processed/form_1_cleaned_v2.csv
+/Database/processed/form_2_cleaned_v2.csv
 

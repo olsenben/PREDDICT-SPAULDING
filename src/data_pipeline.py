@@ -53,9 +53,9 @@ def preprocess_df(df, ordinal_col, nominal_col, continuous_col, ordinal_pipeline
         encoded_df[col] = pd.Categorical(encoded_df[col], ordered=True)
 
     #check for NaN values
-    # assert not encoded_df.isna().any().any(), "Still contains NaNs"
-    # assert np.isfinite(encoded_df.select_dtypes(include=[np.number])).all().all(), "Still contains infs"
-    # print(f"Remaining rows: {df.shape[0]}")
+    assert not encoded_df.isna().any().any(), "Still contains NaNs"
+    assert np.isfinite(encoded_df.select_dtypes(include=[np.number])).all().all(), "Still contains infs"
+    print(f"Remaining rows: {df.shape[0]}")
 
     #double check for mixed data columns
     for col in encoded_df.columns:
